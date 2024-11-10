@@ -2,7 +2,7 @@
 
 This repository contains signal set configurations for the Honda Accord, organized by model year and version. The files are structured to allow for easy differentiation between model generations and other vehicle parameters, ensuring accurate signal mapping for each version of the Honda Accord.
 
-## About Honda Accord Generations
+## Generations
 
 The Honda Accord has evolved through eleven generations since 1976, establishing itself as one of the most successful and influential family sedans:
 
