@@ -97,13 +97,6 @@ Contributions are welcome! If you would like to add support for additional model
 2. Create a new branch for your changes
 3. Commit your changes and open a pull request with a detailed description
 
-When contributing, please ensure:
-- Clear documentation of model year and trim-specific signals
-- Proper labeling of generation-specific components
-- Accurate transmission control signals (MT/AT/CVT)
-- Engine management system parameters
-- Chassis and body control modules mapping
-
 ## Issues
 
 If you encounter any issues or would like to discuss improvements, please feel free to open an issue. We encourage collaboration and appreciate feedback to make the repository as accurate and useful as possible. Please include:
