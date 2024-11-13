@@ -1,2 +1,8 @@
-{ "commands": []
+{ "commands": [
+{ "hdr": "DA10", "cmd": {"22": "2660"}, "freq": 5,
+  "signals": [
+    {"id": "ACCORD_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
+    {"id": "ACCORD_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,      "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
+  ]}
+]
 }
