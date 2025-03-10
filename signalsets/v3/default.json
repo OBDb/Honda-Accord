@@ -3,6 +3,22 @@
   "signals": [
     {"id": "ACCORD_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
     {"id": "ACCORD_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,      "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
+  ]},
+{ "hdr": "DA26", "dbg": true, "cmd": {"22": "6001"}, "freq": 30,
+  "signals": [
+    {"id": "ACCORD_TPMS", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Tire pressure"}
+  ]},
+{ "hdr": "DA60", "dbg": true, "cmd": {"22": "7028"}, "freq": 30,
+  "signals": [
+    {"id": "ACCORD_AAT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Outside air temperature"}
+  ]},
+{ "hdr": "DAEF", "dbg": true, "cmd": {"22": "2201"}, "freq": 30,
+  "signals": [
+    {"id": "ACCORD_GEAR_1", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear variant 1"}
+  ]},
+{ "hdr": "DAEF", "dbg": true, "cmd": {"22": "3086"}, "freq": 30,
+  "signals": [
+    {"id": "ACCORD_GEAR_2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear variant 2"}
   ]}
 ]
 }
