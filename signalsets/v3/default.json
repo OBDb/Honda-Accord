@@ -6,7 +6,10 @@
   ]},
 { "hdr": "DA26", "dbg": true, "cmd": {"22": "6001"}, "freq": 30,
   "signals": [
-    {"id": "ACCORD_TPMS", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Tire pressure"}
+    {"id": "ACCORD_TP_FR", "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "ACCORD_TP_FL", "path": "Tires", "fmt": {"bix": 80,  "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "ACCORD_TP_RR", "path": "Tires", "fmt": {"bix": 96,  "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
+    {"id": "ACCORD_TP_RL", "path": "Tires", "fmt": {"bix": 112, "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "DA60", "dbg": true, "cmd": {"22": "7028"}, "freq": 30,
   "signals": [
@@ -16,9 +19,27 @@
   "signals": [
     {"id": "ACCORD_GEAR_1", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear variant 1"}
   ]},
-{ "hdr": "DAEF", "dbg": true, "cmd": {"22": "3086"}, "freq": 30,
+{ "hdr": "DB33", "dbg": true, "cmd": {"22": "3083"}, "freq": 30,
   "signals": [
-    {"id": "ACCORD_GEAR_2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear variant 2"}
+    {"id": "ACCORD_ATF", "path": "Transmission", "fmt": {"bix": 112, "len": 8, "max": 200, "min": -50, "add": -40, "unit": "celsius" }, "name": "ATF temperature"}
+  ]},
+{ "hdr": "DB33", "dbg": true, "cmd": {"22": "3086"}, "freq": 30,
+  "signals": [
+    {"id": "ACCORD_GEAR_2", "path": "Transmission", "name": "Transmission gear", "fmt": {"bix": 160, "len": 8, "map": {
+          "0":  { "description": "Park",    "value": "P" },
+          "1":  { "description": "Drive 1", "value": "D1" },
+          "2":  { "description": "Drive 2", "value": "D2" },
+          "3":  { "description": "Drive 3", "value": "D3" },
+          "4":  { "description": "Drive 4", "value": "D4" },
+          "5":  { "description": "Drive 5", "value": "D5" },
+          "6":  { "description": "Drive 6", "value": "D6" },
+          "7":  { "description": "Drive 7", "value": "D7" },
+          "8":  { "description": "Drive 8", "value": "D8" },
+          "9":  { "description": "Drive 9", "value": "D9" },
+          "14": { "description": "Neutral", "value": "N" },
+          "15": { "description": "Reverse", "value": "R" }
+        }}
+    }
   ]}
 ]
 }
