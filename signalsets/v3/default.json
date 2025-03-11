@@ -4,6 +4,10 @@
     {"id": "ACCORD_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
     {"id": "ACCORD_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,      "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
+{ "hdr": "DA1D", "fcm1": true, "dbg": true, "cmd": {"22": "2221"}, "freq": 30,
+  "signals": [
+    {"id": "ACCORD_GEAR", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
+  ]},
 { "hdr": "DA26", "fcm1": true, "dbg": true, "cmd": {"22": "6001"}, "freq": 30,
   "signals": [
     {"id": "ACCORD_TP_FR", "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
