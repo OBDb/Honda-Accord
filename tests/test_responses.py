@@ -12,19 +12,22 @@ from schemas.python.signals_testing import obd_testrunner
 REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
-    # TODO: Implement real tests below with vehicle data.
-    # 2019 model year
     {
-        "model_year": "2019",
+        "model_year": "2022",
         "signalset": "default.json",
         "tests": [
-            # # Tire pressures
-            # ("72E05622813028C", {"F150_TP_FL": 32.6}),
-            # ("72E056228140273", {"F150_TP_FR": 31.35}),
-            # ("72E056228150291", {"F150_TP_RRO": 32.85}),
-            # ("72E05622816026E", {"F150_TP_RLO": 31.1}),
-            # ("72E056228170000", {"F150_TP_RRI": 0.0}),
-            # ("72E056228180000", {"F150_TP_RLI": 0.0}),
+            # Tire pressures
+            ("""
+18DAF1601039627028F8F000
+18DAF1602100000004040100
+18DAF1602200000000003300
+18DAF160232D000000000000
+18DAF1602400000000000000
+18DAF1602500000000000000
+18DAF1602600000000000000
+18DAF1602700000000000000
+18DAF1602800005555555555
+""", {"ACCORD_AAT": 45}),
         ]
     },
 ]
@@ -51,7 +54,7 @@ def test_signals(test_group: Dict[str, Any]):
                 signalset_json,
                 response_hex,
                 expected_values,
-                can_id_format=CANIDFormat.TWENTYNINE_BIT
+                can_id_format=CANIDFormat.TWENTY_NINE_BIT
             )
         except Exception as e:
             pytest.fail(
