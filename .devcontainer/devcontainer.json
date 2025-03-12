@@ -1,6 +1,6 @@
 {
-    "name": "Python and Node.js Development",
-    "image": "mcr.microsoft.com/devcontainers/python",
+    "name": "Python Development",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -13,7 +13,7 @@
             }
         }
     },
-    "postCreateCommand": "pip install pytest",
-    "postAttachCommand": "pushd tests/schemas && git pull && popd || git clone https://github.com/OBDb/.schemas.git tests/schemas",
+    "postCreateCommand": "apt-get update && apt-get install -y python3 python3-pip python3-venv && pip install pytest",
+    "postAttachCommand": "pushd tests/schemas && git pull && popd || git clone --depth=1 https://github.com/OBDb/.schemas.git tests/schemas",
     "remoteUser": "vscode"
 }
