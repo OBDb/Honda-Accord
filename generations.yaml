@@ -1,0 +1,55 @@
+generations:
+  - name: "First Generation"
+    start_year: 1976
+    end_year: 1981
+    description: "The original Honda Accord was introduced as a compact hatchback before a sedan variant was added. Measuring just 162.8 inches in length, it was significantly smaller than modern Accords. Powered by a 1.6L four-cylinder engine producing approximately 68 HP, it emphasized efficiency during the oil crisis era. The interior featured a simple, functional design with good visibility and logical controls. This generation established the Accord's reputation for quality, reliability, and efficiency, helping Honda gain a foothold in the American market as an alternative to domestic manufacturers."
+
+  - name: "Second Generation"
+    start_year: 1982
+    end_year: 1985
+    description: "The second-generation Accord grew slightly in size and added more sophisticated styling while maintaining the hatchback and sedan body styles. Power increased with a 1.8L engine producing around 86 HP. The interior saw improvements in materials and design, with more comfort features available. This generation introduced technologies like fuel injection on higher trims and was the first Accord to be manufactured in the United States at Honda's Marysville, Ohio plant—a significant milestone for Japanese automakers. Sales increased substantially, establishing the Accord as a mainstream competitor in the American market."
+
+  - name: "Third Generation"
+    start_year: 1986
+    end_year: 1989
+    description: "The third-generation Accord grew again in size and sophistication, with more aerodynamic styling and retractable headlights on some models. Available in sedan, hatchback, and for the first time, coupe body styles. Power came from a 2.0L four-cylinder with output ranging from 98 to 110 HP depending on the model year and market. The interior featured a more upscale design with improved ergonomics and available luxury features like power windows, locks, and a moonroof. This generation continued to build the Accord's reputation for quality and reliability while adding more refinement and features."
+
+  - name: "Fourth Generation"
+    start_year: 1990
+    end_year: 1993
+    description: "The fourth-generation Accord featured more rounded styling and increased dimensions, transitioning from the compact to mid-size category. Available in sedan, coupe, and (in some markets) wagon body styles. Engine options included 2.0L and 2.2L four-cylinders with power ranging from 125 to 140 HP. The interior saw significant improvements in materials, design, and space utilization. This generation further solidified the Accord's position as a benchmark in the mid-size segment, becoming the best-selling car in the United States in 1991—a first for a Japanese manufacturer."
+
+  - name: "Fifth Generation"
+    start_year: 1994
+    end_year: 1997
+    description: "The fifth-generation Accord continued the model's growth in size and refinement, with smoother styling and increased interior space. Engine options included 2.2L four-cylinder and 2.7L V6 powerplants, the latter marking the first V6 offering in an Accord. The interior featured a more premium design with improved materials and available features including leather seating and a sophisticated audio system. This generation maintained the Accord's reputation for quality and reliability while adding more power and luxury features, keeping it competitive against increasingly sophisticated rivals."
+
+  - name: "Sixth Generation"
+    start_year: 1998
+    end_year: 2002
+    description: "The sixth-generation Accord featured more distinctive styling and was available in sedan and coupe body styles, with the coupes having unique, sportier sheetmetal. Engine options included improved 2.3L four-cylinder and 3.0L V6 units with up to 200 HP. The interior saw improvements in design, material quality, and technology features. This generation enhanced the Accord's driver engagement while maintaining its practical virtues, further cementing its position as a top seller in the mid-size segment and a benchmark for the competition."
+
+  - name: "Seventh Generation"
+    start_year: 2003
+    end_year: 2007
+    description: "The seventh-generation Accord grew substantially, approaching full-size dimensions in the North American market while remaining mid-sized in other regions. Available in sedan and coupe body styles with distinct designs, it offered 2.4L four-cylinder and 3.0L V6 engines with power up to 240 HP. The interior featured a more premium design with improved materials and technology. This generation continued the Accord's legacy of combining quality, reliability, and practicality with increasing levels of refinement and performance, maintaining its position as one of the top-selling cars in its segment."
+
+  - name: "Eighth Generation"
+    start_year: 2008
+    end_year: 2012
+    description: "The eighth-generation Accord grew again in size, officially classified as a full-size car in the US while other markets received a smaller, distinct model. Available in sedan and coupe body styles, it featured more angular styling and improved aerodynamics. Engine options included 2.4L four-cylinder and 3.5L V6 units with power up to 271 HP. The interior offered increased space with improved materials and design. Technology advanced with available navigation, Bluetooth connectivity, and advanced safety features. This generation maintained the Accord's reputation for quality and reliability while offering more space and features, though some critics felt it had strayed from the model's nimble handling heritage."
+
+  - name: "Ninth Generation"
+    start_year: 2013
+    end_year: 2017
+    description: "The ninth-generation Accord slightly reduced exterior dimensions while maintaining interior space, representing a focus on efficiency and maneuverability. Available in sedan and coupe body styles, it offered 2.4L four-cylinder and 3.5L V6 engines, plus new hybrid and plug-in hybrid variants. The interior featured improved materials, design, and technology, including standard rearview camera and available Apple CarPlay/Android Auto in later model years. Honda Sensing safety technology was introduced, offering features like adaptive cruise control and collision mitigation braking. This generation successfully balanced the Accord's traditional virtues with modern technology and efficiency requirements."
+
+  - name: "Tenth Generation"
+    start_year: 2018
+    end_year: 2022
+    description: "The tenth-generation Accord featured a complete redesign with more dramatic, fastback-inspired styling and a focus on driving dynamics. The coupe body style was discontinued, with the sedan adopting a sleeker, coupe-like profile. Traditional V6 engines were replaced by turbocharged 1.5L and 2.0L four-cylinders, plus a hybrid variant. The interior saw a significant upgrade in design, materials, and technology, including a standard 7-inch or available 8-inch touchscreen with Apple CarPlay and Android Auto. Honda Sensing safety features became standard across all trims. This generation received critical acclaim for its combination of style, performance, efficiency, and technology, winning numerous awards while maintaining the Accord's reputation for quality and reliability."
+
+  - name: "Eleventh Generation"
+    start_year: 2023
+    end_year: null
+    description: "The current Accord features evolutionary styling with cleaner lines and a more upright front end, built on a revised version of the previous platform with increased rigidity. Engine options include a refined 1.5L turbocharged four-cylinder and a new fourth-generation hybrid system that now forms the upper half of the lineup. The interior represents a major advancement with a simplified, horizontal dashboard design, standard 10.2-inch digital instrument display, and available 12.3-inch touchscreen infotainment system with wireless Apple CarPlay and Android Auto. Material quality has improved with more premium touches in higher trims. Technology now includes Google Built-in services on higher trims, enhanced Honda Sensing safety features, and available head-up display. This generation focuses on refinement, efficiency, and technology while maintaining the Accord's traditional strengths of reliability and practicality, aiming to defend the sedan segment amid declining sales as consumers shift toward SUVs."
