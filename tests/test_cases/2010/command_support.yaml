@@ -47,3 +47,8 @@ unsupported_commands_by_ecu:
   - DA26.226001
   DA60:
   - DA60.227028
+  DB33:
+  - DB33.010D
+  - DB33.012F
+  - DB33.0131
+  - DB33.0142
