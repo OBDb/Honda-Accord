@@ -69,5 +69,6 @@ unsupported_commands_by_ecu:
   DAEF:
   - DAEF.222201
   DB33:
+  - DB33.010D
   - DB33.223083
   - DB33.223086
