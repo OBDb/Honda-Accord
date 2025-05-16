@@ -40,7 +40,7 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   DA10:
   - DA10.2225AE
-  - DA10.222660:ACCORD_ODO,ACCORD_RUNTM
+  - DA10.222660
   DA1D:
   - DA1D.222221
   DA26:
