@@ -1,0 +1,7 @@
+command_id: DB33.014A
+test_cases:
+- response: |-
+    18DAF11D03414A17
+    18DAF11103414A17
+  expected_values:
+    APP_E: 9.01961

@@ -1,0 +1,7 @@
+command_id: DB33.0111
+test_cases:
+- response: |-
+    18DAF11D0341112A
+    18DAF1110341112A
+  expected_values:
+    TP: 16.47059
