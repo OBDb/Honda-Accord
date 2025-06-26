@@ -1,10 +1,10 @@
 command_id: DB33.010C
 test_cases:
-- response: |-
+- expected_values:
+    RPM: 0
+  response: |-
     18DAF11104410C0000
     18DAF11D04410C0000
-  expected_values:
+- expected_values:
     RPM: 0
-- response: 18DAF11D04410C0000
-  expected_values:
-    RPM: 0
+  response: 18DAF11D04410C0000
