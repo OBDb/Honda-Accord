@@ -1,6 +1,9 @@
 command_id: DA10.222660|fc=1
 test_cases:
-- response: |-
+- expected_values:
+    ACCORD_ODO: 509790
+    ACCORD_RUNTM: 568
+  response: |-
     18DAF1111039622660801FFF
     18DAF11121C0F7F081000000
     18DAF1112200000000000000
@@ -83,6 +86,3 @@ test_cases:
     18DAF111275E023800000000
     18DAF1112800005555555555
     CAN ERROR
-  expected_values:
-    ACCORD_ODO: 509790
-    ACCORD_RUNTM: 568

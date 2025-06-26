@@ -1,15 +1,15 @@
 model_year: 2007
 unsupported_commands_by_ecu:
-  DA10:
+  "DA10":
   - DA10.222660|fc=1:HONDA_ODO,HONDA_RUNTM
-  DA1D:
+  "DA1D":
   - DA1D.222221|fc=1:HONDA_GEAR
-  DA26:
+  "DA26":
   - DA26.226001|fc=1:HONDA_TP_FL,HONDA_TP_FR,HONDA_TP_RL,HONDA_TP_RR
-  DA60:
+  "DA60":
   - DA60.227028|fc=1:HONDA_AAT
-  DAEF:
+  "DAEF":
   - DAEF.222201
-  DB33:
+  "DB33":
   - DB33.223083
   - DB33.223086

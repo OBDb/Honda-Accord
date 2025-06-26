@@ -1,6 +1,8 @@
 command_id: DB33.0131
 test_cases:
-- response: |-
+- expected_values:
+    CLR_DIST: 74
+  response: |-
     18DAF111044131003F555555
     18DAF11D044131003E555555
     18DAF11D044131003F555555
@@ -20,5 +22,3 @@ test_cases:
     18DAF11D044131004A555555
     18DAF111044131004A555555
     CAN ERROR
-  expected_values:
-    CLR_DIST: 74
