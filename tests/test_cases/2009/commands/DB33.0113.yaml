@@ -1,7 +1,6 @@
 command_id: DB33.0113
 test_cases:
-- response: 18DAF11103411303
-  expected_values:
+- expected_values:
     O2S11_EXISTS: 1
     O2S12_EXISTS: 1
     O2S13_EXISTS: 0
@@ -10,3 +9,4 @@ test_cases:
     O2S22_EXISTS: 0
     O2S23_EXISTS: 0
     O2S24_EXISTS: 0
+  response: 18DAF11103411303

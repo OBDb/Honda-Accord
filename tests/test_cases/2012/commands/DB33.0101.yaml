@@ -1,9 +1,6 @@
 command_id: DB33.0101
 test_cases:
-- response: |-
-    18DAF11D06410100040000
-    18DAF1110641010007E500
-  expected_values:
+- expected_values:
     ACRF_RDY: 0
     ACRF_SUP: 0
     AIR_RDY: 0
@@ -29,3 +26,6 @@ test_cases:
     MIS_SUP: 1
     O2S_RDY: 0
     O2S_SUP: 1
+  response: |-
+    18DAF11D06410100040000
+    18DAF1110641010007E500

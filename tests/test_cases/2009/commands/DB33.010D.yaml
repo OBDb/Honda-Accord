@@ -1,16 +1,21 @@
 command_id: DB33.010D
 test_cases:
-- response: 18DAF11003410D00
-  expected_values:
+- expected_values:
     VSS: 0
-- response: 18DAF11003410D8D
-  expected_values:
+  response: 18DAF11003410D00
+- expected_values:
     VSS: 141
-- response: 18DAF11D03410D00
-  expected_values:
+  response: 18DAF11003410D8D
+- expected_values:
     VSS: 0
-- response: |-
+  response: |-
+    18DAF11103410D00
+    18DAF11D03410D00
+- expected_values:
+    VSS: 0
+  response: 18DAF11D03410D00
+- expected_values:
+    VSS: 0
+  response: |-
     18DAF11D03410D00
     18DAF11103410D00
-  expected_values:
-    VSS: 0

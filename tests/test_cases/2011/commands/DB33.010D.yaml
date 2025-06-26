@@ -1,6 +1,8 @@
 command_id: DB33.010D
 test_cases:
-- response: |-
+- expected_values:
+    VSS: 124
+  response: |-
     18DAF11103410D2255555555
     18DAF11D03410D2255555555
     18DAF11103410D4755555555
@@ -27,5 +29,3 @@ test_cases:
     18DAF11D03410D6855555555
     18DAF11D03410D7C55555555
     CAN ERROR
-  expected_values:
-    VSS: 124

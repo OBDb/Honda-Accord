@@ -1,23 +1,23 @@
 command_id: DB33.012E
 test_cases:
-- response: 18DAF11103412E00
-  expected_values:
+- expected_values:
     EVAP_PCT: 0
-- response: 18DAF11103412E58
-  expected_values:
+  response: 18DAF11103412E00
+- expected_values:
     EVAP_PCT: 34.5098
-- response: 18DAF11103412E66
-  expected_values:
+  response: 18DAF11103412E58
+- expected_values:
     EVAP_PCT: 40
-- response: 18DAF11103412E69
-  expected_values:
+  response: 18DAF11103412E66
+- expected_values:
     EVAP_PCT: 41.17647
-- response: 18DAF11103412E6A
-  expected_values:
+  response: 18DAF11103412E69
+- expected_values:
     EVAP_PCT: 41.56863
-- response: 18DAF11103412E6C
-  expected_values:
+  response: 18DAF11103412E6A
+- expected_values:
     EVAP_PCT: 42.35294
-- response: 18DAF11103412E76
-  expected_values:
+  response: 18DAF11103412E6C
+- expected_values:
     EVAP_PCT: 46.27451
+  response: 18DAF11103412E76
