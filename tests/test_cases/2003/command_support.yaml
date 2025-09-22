@@ -1,4 +1,4 @@
-model_year: 2007
+model_year: 2003
 supported_commands_by_ecu: {}
 unsupported_commands_by_ecu:
   "686A":
@@ -30,8 +30,3 @@ unsupported_commands_by_ecu:
   "DA60":
   - DA60.227028|fc=1:HONDA_AAT
   - DA60.60.227029:HONDA_FLV
-  "DAEF":
-  - DAEF.222201
-  "DB33":
-  - DB33.223083
-  - DB33.223086
