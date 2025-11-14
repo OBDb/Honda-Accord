@@ -1,5 +1,4 @@
 model_year: 2003
-supported_commands_by_ecu: {}
 unsupported_commands_by_ecu:
   "686A":
   - 686A.010D|p=9141-2:VSS
