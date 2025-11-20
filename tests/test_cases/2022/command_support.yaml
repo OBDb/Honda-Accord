@@ -50,12 +50,12 @@ supported_commands_by_ecu:
   - 01A6:ODO
 unsupported_commands_by_ecu:
   "DA10":
-  - DA10.222660|fc=1:ACCORD_ODO,ACCORD_RUNTM
+  - DA10.10.222660|fc=1,f=2011-:ACCORD_ODO,ACCORD_RUNTM
   "DA1D":
   - DA1D.222221
   "DA26":
   - DA26.226001
   "DA60":
-  - DA60.227028|fc=1:ACCORD_AAT
+  - DA60.60.227028|fc=1,f=2011-:ACCORD_AAT
   "DB33":
   - DB33.223086
