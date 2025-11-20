@@ -1,10 +1,25 @@
 { "commands": [
-{ "hdr": "DA10", "fcm1": true, "cmd": {"22": "2660"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2015, 2016, 2017, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA10", "rax": "10", "fcm1": true, "cmd": {"22": "2660"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "years": [2012, 2013, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2025 },
   "signals": [
-    {"id": "ACCORD_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
-    {"id": "ACCORD_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,      "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
+    {"id": "ACCORD_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
+    {"id": "ACCORD_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,    "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "DA60", "fcm1": true, "cmd": {"22": "7028"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2203"}, "freq": 1, "filter": { "to": 2011 },
+  "signals": [
+    {"id": "ACCORD_EOP", "path": "Engine", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Oil pressure"}
+  ]},
+{ "hdr": "DA1D", "rax": "1D", "fcm1": true, "cmd": {"22": "2221"}, "freq": 30, "filter": { "to": 2011 }, "dbgfilter": { "to": 2009 },
+  "signals": [
+    {"id": "ACCORD_GEAR", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
+  ]},
+{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
+  "signals": [
+    {"id": "ACCORD_MIS1", "path": "Engine.Misfires", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1"},
+    {"id": "ACCORD_MIS2", "path": "Engine.Misfires", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2"},
+    {"id": "ACCORD_MIS3", "path": "Engine.Misfires", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #3"},
+    {"id": "ACCORD_MIS4", "path": "Engine.Misfires", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #4"}
+  ]},
+{ "hdr": "DA60", "rax": "60", "fcm1": true, "cmd": {"22": "7028"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "ACCORD_AAT", "path": "Climate", "fmt": {"bix": 136, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outside air temperature"}
   ]}
