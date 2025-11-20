@@ -75,7 +75,7 @@ unsupported_commands_by_ecu:
   - DA10.000010.222662
   - DA10.000010.222663
   - DA10.222615
-  - DA10.222660|fc=1:ACCORD_ODO,ACCORD_RUNTM
+  - DA10.222660
   "DA11":
   - DA11.000011.222611
   - DA11.000011.222612
@@ -94,4 +94,4 @@ unsupported_commands_by_ecu:
   - DA26.226001
   "DA60":
   - DA60.000060.227029
-  - DA60.227028|fc=1:ACCORD_AAT
+  - DA60.227028

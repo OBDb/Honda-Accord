@@ -1,4 +1,4 @@
-command_id: DA60.227028|fc=1
+command_id: DA60.60.227028|fc=1,f=2011-
 test_cases:
 - expected_values:
     ACCORD_AAT: 4
