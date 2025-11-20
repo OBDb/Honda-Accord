@@ -1,7 +1,0 @@
-{ "commands": [
-{ "hdr": "DA1D", "fcm1": true, "dbg": true, "cmd": {"22": "2221"}, "freq": 30,
-  "signals": [
-    {"id": "ACCORD_GEAR", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
-  ]}
-]
-}

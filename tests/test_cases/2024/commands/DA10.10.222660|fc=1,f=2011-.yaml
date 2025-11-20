@@ -1,4 +1,4 @@
-command_id: DA10.222660|fc=1
+command_id: DA10.10.222660|fc=1,f=2011-
 test_cases:
 - expected_values:
     ACCORD_ODO: 11956
