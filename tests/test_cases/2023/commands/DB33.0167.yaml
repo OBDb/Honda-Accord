@@ -1,0 +1,44 @@
+command_id: DB33.0167
+test_cases:
+- expected_values:
+    ECT_1: 59
+    ECT_1_SUP: 1
+    ECT_2: 9
+    ECT_2_SUP: 1
+  response: 18DAF107054167036331
+- expected_values:
+    ECT_1: 57
+    ECT_1_SUP: 1
+    ECT_2: 10
+    ECT_2_SUP: 1
+  response: 18DAF1EF054167036132
+- expected_values:
+    ECT_1: 61
+    ECT_1_SUP: 1
+    ECT_2: 10
+    ECT_2_SUP: 1
+  response: |-
+    18DAF1EF054167036532
+    18DAF107054167036532
+    18DAF110054167036532
+- expected_values:
+    ECT_1: 69
+    ECT_1_SUP: 1
+    ECT_2: 9
+    ECT_2_SUP: 1
+  response: |-
+    18DAF1EF054167036D31
+    18DAF107054167036D31
+    18DAF110054167036D31
+- expected_values:
+    ECT_1: 82
+    ECT_1_SUP: 1
+    ECT_2: 12
+    ECT_2_SUP: 1
+  response: 18DAF1EF054167037A34
+- expected_values:
+    ECT_1: 86
+    ECT_1_SUP: 1
+    ECT_2: 10
+    ECT_2_SUP: 1
+  response: 18DAF1EF054167037E32
