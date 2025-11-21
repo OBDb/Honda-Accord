@@ -28,15 +28,6 @@ test_cases:
     ECT_2_SUP: 1
   response: 18DAF1EF05416703342C
 - expected_values:
-    ECT_1: 15
-    ECT_1_SUP: 1
-    ECT_2: 10
-    ECT_2_SUP: 1
-  response: |-
-    18DAF1EF054167033732
-    18DAF107054167033732
-    18DAF110054167033732
-- expected_values:
     ECT_1: 25
     ECT_1_SUP: 1
     ECT_2: 8
@@ -45,15 +36,6 @@ test_cases:
     18DAF1EF054167034130
     18DAF10705416703412F
     18DAF110054167034130
-- expected_values:
-    ECT_1: 61
-    ECT_1_SUP: 1
-    ECT_2: 10
-    ECT_2_SUP: 1
-  response: |-
-    18DAF1EF054167036532
-    18DAF107054167036532
-    18DAF110054167036532
 - expected_values:
     ECT_1: 69
     ECT_1_SUP: 1
@@ -64,14 +46,23 @@ test_cases:
     18DAF107054167036D31
     18DAF110054167036D31
 - expected_values:
-    ECT_1: 86
+    ECT_1: 74
     ECT_1_SUP: 1
-    ECT_2: 20
+    ECT_2: 11
     ECT_2_SUP: 1
-  response: 18DAF1EF054167037E3C
+  response: |-
+    18DAF1EF054167037233
+    18DAF107054167037233
+    18DAF110054167037233
 - expected_values:
-    ECT_1: 87
+    ECT_1: 84
     ECT_1_SUP: 1
-    ECT_2: 19
+    ECT_2: 28
     ECT_2_SUP: 1
-  response: 18DAF1EF054167037F3B
+  response: 18DAF1EF054167037C44
+- expected_values:
+    ECT_1: 88
+    ECT_1_SUP: 1
+    ECT_2: 13
+    ECT_2_SUP: 1
+  response: 18DAF1EF054167038035
