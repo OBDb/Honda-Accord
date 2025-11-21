@@ -7,6 +7,12 @@ test_cases:
     ECT_2_SUP: 1
   response: 18DAF107054167036331
 - expected_values:
+    ECT_1: 84
+    ECT_1_SUP: 1
+    ECT_2: 4
+    ECT_2_SUP: 1
+  response: 18DAF107054167037C2C
+- expected_values:
     ECT_1: 7
     ECT_1_SUP: 1
     ECT_2: 4
@@ -49,14 +55,14 @@ test_cases:
     18DAF107054167036D31
     18DAF110054167036D31
 - expected_values:
-    ECT_1: 82
-    ECT_1_SUP: 1
-    ECT_2: 12
-    ECT_2_SUP: 1
-  response: 18DAF1EF054167037A34
-- expected_values:
     ECT_1: 86
     ECT_1_SUP: 1
-    ECT_2: 10
+    ECT_2: 20
     ECT_2_SUP: 1
-  response: 18DAF1EF054167037E32
+  response: 18DAF1EF054167037E3C
+- expected_values:
+    ECT_1: 87
+    ECT_1_SUP: 1
+    ECT_2: 19
+    ECT_2_SUP: 1
+  response: 18DAF1EF054167037F3B
