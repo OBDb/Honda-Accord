@@ -1,0 +1,5 @@
+command_id: DB33.0155
+test_cases:
+- expected_values:
+    STSO2FT1: -29.5625
+  response: 18DAF1100341557E
