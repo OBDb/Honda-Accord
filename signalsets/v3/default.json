@@ -4,7 +4,7 @@
     {"id": "ACCORD_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
     {"id": "ACCORD_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,    "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2203"}, "freq": 1, "filter": { "to": 2011 },
+{ "hdr": "DA1D", "rax": "1D", "cmd": {"22": "2203"}, "freq": 1, "filter": { "to": 2011 }, "dbg": true,
   "signals": [
     {"id": "ACCORD_EOP", "path": "Engine", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Oil pressure"}
   ]},
@@ -12,7 +12,7 @@
   "signals": [
     {"id": "ACCORD_GEAR", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
+{ "hdr": "DA1D", "rax": "1D", "cmd": {"22": "2663"}, "freq": 1, "dbg": true,
   "signals": [
     {"id": "ACCORD_MIS1", "path": "Engine.Misfires", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1"},
     {"id": "ACCORD_MIS2", "path": "Engine.Misfires", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2"},
