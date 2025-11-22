@@ -1,0 +1,6 @@
+command_id: DB33.0103
+test_cases:
+- expected_values:
+    FUELSYS1: CL
+    FUELSYS2: 'OFF'
+  response: 18DAF1100441030200
