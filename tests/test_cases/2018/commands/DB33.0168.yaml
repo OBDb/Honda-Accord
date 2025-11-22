@@ -15,14 +15,14 @@ test_cases:
 - expected_values:
     IAT_11: 47
     IAT_11_SUP: 1
-    IAT_12: 34
+    IAT_12: 38
     IAT_12_SUP: 1
     IAT_13_SUP: 0
     IAT_21_SUP: 0
     IAT_22_SUP: 0
     IAT_23_SUP: 0
   response: |-
-    18DAF1101009416803574A00
+    18DAF1101009416803574E00
     18DAF1102100000055555555
 - expected_values:
     IAT_11: 48
