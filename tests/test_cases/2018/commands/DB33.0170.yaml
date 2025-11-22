@@ -15,3 +15,18 @@ test_cases:
   response: |-
     18DAF110100C4170070C720C
     18DAF1102155000000000155
+- expected_values:
+    BP_A: BP_A_OL
+    BP_A_ACT: 99
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 99.75
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070C780C
+    18DAF1102160000000000155

@@ -1,0 +1,6 @@
+command_id: DB33.019D
+test_cases:
+- expected_values:
+    FUEL_RATE_ALT: 0.2
+    VFUEL_RATE: 0.2
+  response: 18DAF11006419D000A000A

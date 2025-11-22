@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TQ_ACT: 18
   response: 18DAF1100341628F
+- expected_values:
+    TQ_ACT: 23
+  response: 18DAF11003416294
+- expected_values:
+    TQ_ACT: 27
+  response: 18DAF11003416298

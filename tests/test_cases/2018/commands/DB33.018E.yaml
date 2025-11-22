@@ -1,5 +1,11 @@
 command_id: DB33.018E
 test_cases:
 - expected_values:
+    TQ_FR: 4
+  response: 18DAF11003418E81
+- expected_values:
+    TQ_FR: 6
+  response: 18DAF11003418E83
+- expected_values:
     TQ_FR: 17
   response: 18DAF11003418E8E
