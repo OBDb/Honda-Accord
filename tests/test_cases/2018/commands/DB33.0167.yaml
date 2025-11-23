@@ -56,3 +56,11 @@ test_cases:
     ECT_2: 12
     ECT_2_SUP: 1
   response: 18DAF11E054167035834
+- expected_values:
+    ECT_1: 58
+    ECT_1_SUP: 1
+    ECT_2: 18
+    ECT_2_SUP: 1
+  response: |-
+    18DAF11E05416703623A
+    18DAF11005416703623A
