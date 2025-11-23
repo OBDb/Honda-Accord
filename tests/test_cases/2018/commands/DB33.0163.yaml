@@ -4,6 +4,9 @@ test_cases:
     TQ_REF: 111
   response: 18DAF110044163006F
 - expected_values:
+    TQ_REF: 112
+  response: 18DAF1100441630070
+- expected_values:
     TQ_REF: 114
   response: 18DAF1100441630072
 - expected_values:
