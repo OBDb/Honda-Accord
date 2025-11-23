@@ -1,8 +1,8 @@
 command_id: DB33.0132
 test_cases:
 - expected_values:
-    EVAP_VP: 0.093
-  response: 18DAF1100441320174
+    EVAP_VP: 0.01325
+  response: 18DAF1100441320035
 - expected_values:
     EVAP_VP: -1.024
   response: 18DAF110044132F000

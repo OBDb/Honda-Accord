@@ -4,5 +4,5 @@ test_cases:
     TQ_FR: 0
   response: 18DAF11003418E7D
 - expected_values:
-    TQ_FR: 20
-  response: 18DAF11003418E91
+    TQ_FR: 25
+  response: 18DAF11003418E96
