@@ -15,3 +15,123 @@ test_cases:
   response: |-
     18DAF110100C4170070C9C0C
     18DAF11021A3000000000155
+- expected_values:
+    BP_A: BP_A_OL
+    BP_A_ACT: 103.53125
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 101.53125
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070CB10C
+    18DAF11021F1000000000155
+- expected_values:
+    BP_A: BP_A_OL
+    BP_A_ACT: 102.5
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 101.59375
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070CB30C
+    18DAF11021D0000000000155
+- expected_values:
+    BP_A: BP_A_OL
+    BP_A_ACT: 104.25
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 101.65625
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070CB50D
+    18DAF1102108000000000155
+- expected_values:
+    BP_A: BP_A_CL
+    BP_A_ACT: 104.59375
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 103.71875
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070CF70D
+    18DAF1102113000000000255
+- expected_values:
+    BP_A: BP_A_OL
+    BP_A_ACT: 104.25
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 104
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070D000D
+    18DAF1102108000000000155
+- expected_values:
+    BP_A: BP_A_CL
+    BP_A_ACT: 109.46875
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 108.34375
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070D8B0D
+    18DAF11021AF000000000255
+- expected_values:
+    BP_A: BP_A_CL
+    BP_A_ACT: 111.90625
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 111.8125
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070DFA0D
+    18DAF11021FD000000000255
+- expected_values:
+    BP_A: BP_A_CL
+    BP_A_ACT: 189.0625
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 185.1875
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C417007172617
+    18DAF11021A2000000000255
