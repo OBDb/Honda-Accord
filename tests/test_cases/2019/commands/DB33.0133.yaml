@@ -5,3 +5,14 @@ test_cases:
   response: |-
     18DAF11003413364
     18DAF11E03413364
+- expected_values:
+    BARO: 101
+  response: 18DAF11003413365
+- expected_values:
+    BARO: 101
+  response: 18DAF11E03413365
+- expected_values:
+    BARO: 101
+  response: |-
+    18DAF11E03413365
+    18DAF11003413365
