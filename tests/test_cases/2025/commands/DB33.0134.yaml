@@ -18,5 +18,9 @@ test_cases:
   response: 18DAF1100641349119802A
 - expected_values:
     LAMBDA11_CURRENT: 1.99
+    O2S11_CURRENT: 0.24219
+  response: 18DAF110064134FFFF803E
+- expected_values:
+    LAMBDA11_CURRENT: 1.99
     O2S11_CURRENT: 1.08984
   response: 18DAF110064134FFFF8117
