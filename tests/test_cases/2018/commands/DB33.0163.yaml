@@ -19,8 +19,14 @@ test_cases:
     TQ_REF: 134
   response: 18DAF1100441630086
 - expected_values:
+    TQ_REF: 137
+  response: 18DAF1100441630089
+- expected_values:
     TQ_REF: 152
   response: 18DAF1100441630098
 - expected_values:
     TQ_REF: 161
   response: 18DAF11004416300A1
+- expected_values:
+    TQ_REF: 274
+  response: 18DAF1100441630112
