@@ -4,6 +4,15 @@ test_cases:
     LONGFT1: -28.78125
   response: 18DAF1100341077F
 - expected_values:
+    LONGFT1: -26.4375
+  response: 18DAF11003410782
+- expected_values:
+    LONGFT1: -24.875
+  response: 18DAF11003410784
+- expected_values:
+    LONGFT1: -24.09375
+  response: 18DAF11003410785
+- expected_values:
     LONGFT1: -23.3125
   response: 18DAF11003410786
 - expected_values:
