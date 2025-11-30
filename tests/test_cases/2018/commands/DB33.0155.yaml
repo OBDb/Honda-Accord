@@ -1,20 +1,20 @@
 command_id: DB33.0155
 test_cases:
 - expected_values:
-    STSO2FT1: -31.125
+    STSO2FT1: -3.125
   response: 18DAF1100341557C
 - expected_values:
-    STSO2FT1: -30.34375
+    STSO2FT1: -2.34375
   response: 18DAF1100341557D
 - expected_values:
-    STSO2FT1: -29.5625
+    STSO2FT1: -1.5625
   response: 18DAF1100341557E
 - expected_values:
-    STSO2FT1: -28.78125
+    STSO2FT1: -0.78125
   response: 18DAF1100341557F
 - expected_values:
-    STSO2FT1: -28
+    STSO2FT1: 0
   response: 18DAF11003415580
 - expected_values:
-    STSO2FT1: -27.21875
+    STSO2FT1: 0.78125
   response: 18DAF11003415581
