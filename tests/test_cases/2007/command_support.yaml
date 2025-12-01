@@ -2,6 +2,7 @@ model_year: 2007
 supported_commands_by_ecu: {}
 unsupported_commands_by_ecu:
   "686A":
+  - 686A.0104|p=9141-2:LOAD_PCT
   - 686A.010D|p=9141-2:VSS
   "DA10":
   - DA10.000010.222610
