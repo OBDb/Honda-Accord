@@ -25,5 +25,8 @@ test_cases:
     TQ_ACT: 23
   response: 18DAF11003416294
 - expected_values:
+    TQ_ACT: 24
+  response: 18DAF11003416295
+- expected_values:
     TQ_ACT: 27
   response: 18DAF11003416298
