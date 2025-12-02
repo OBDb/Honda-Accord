@@ -9,10 +9,10 @@ test_cases:
     18DAF11003410D00
     18DAF11E03410D00
 - expected_values:
-    VSS: 73
+    VSS: 68
   response: |-
-    18DAF11003410D49
-    18DAF11E03410D49
+    18DAF11003410D44
+    18DAF11E03410D44
 - expected_values:
     VSS: 74
   response: |-
