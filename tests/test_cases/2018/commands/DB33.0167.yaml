@@ -41,15 +41,15 @@ test_cases:
     ECT_1_SUP: 1
     ECT_2: 36
     ECT_2_SUP: 1
-  response: 18DAF11005416703844C
-- expected_values:
-    ECT_1: 92
-    ECT_1_SUP: 1
-    ECT_2: 36
-    ECT_2_SUP: 1
   response: |-
     18DAF11005416703844C
     18DAF11E05416703844C
+- expected_values:
+    ECT_1: 94
+    ECT_1_SUP: 1
+    ECT_2: 41
+    ECT_2_SUP: 1
+  response: 18DAF110054167038651
 - expected_values:
     ECT_1: 48
     ECT_1_SUP: 1
