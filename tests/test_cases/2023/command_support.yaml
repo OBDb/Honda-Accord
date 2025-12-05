@@ -64,6 +64,7 @@ supported_commands_by_ecu:
   - DB33.010C:RPM
   - DB33.010D:VSS
   - DB33.010E:SPARKADV
+  - DB33.0111:TP
   - DB33.0121:MIL_DIST
   - DB33.0123:FRP
   - DB33.012C:EGR_PCT
