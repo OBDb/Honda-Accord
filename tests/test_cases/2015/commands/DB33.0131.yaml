@@ -4,5 +4,5 @@ test_cases:
     CLR_DIST: 18203
   response: 18DAF10E044131471B
 - expected_values:
-    CLR_DIST: 18216
-  response: 18DAF10E0441314728
+    CLR_DIST: 19944
+  response: 18DAF10E0441314DE8
