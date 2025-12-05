@@ -19,7 +19,7 @@
     {"id": "ACCORD_MIS3", "path": "Engine.Misfires", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #3"},
     {"id": "ACCORD_MIS4", "path": "Engine.Misfires", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #4"}
   ]},
-{ "hdr": "DA60", "rax": "60", "fcm1": true, "cmd": {"22": "7028"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "fcm1": true, "cmd": {"22": "7028"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_AAT", "path": "Climate", "fmt": {"bix": 136, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outside air temperature"}
   ]}
