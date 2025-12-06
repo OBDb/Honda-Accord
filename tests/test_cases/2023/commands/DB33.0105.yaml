@@ -2,13 +2,13 @@ command_id: DB33.0105
 test_cases:
 - expected_values:
     ECT: 8
+  response: 18DAF10103410530
+- expected_values:
+    ECT: 8
   response: |-
     18DAF10103410530
     18DAF10203410530
     18DAF10603410530
-- expected_values:
-    ECT: 18
-  response: 18DAF1010341053A
 - expected_values:
     ECT: 57
   response: |-
@@ -19,14 +19,14 @@ test_cases:
     ECT: 88
   response: 18DAF10103410580
 - expected_values:
-    ECT: 4
-  response: 18DAF1020341052C
+    ECT: -3
+  response: |-
+    18DAF10203410525
+    18DAF10103410525
+    18DAF10603410525
 - expected_values:
     ECT: 4
-  response: |-
-    18DAF1020341052C
-    18DAF1010341052C
-    18DAF1060341052C
+  response: 18DAF1020341052C
 - expected_values:
     ECT: 7
   response: |-
@@ -58,5 +58,5 @@ test_cases:
     18DAF10103410520
     18DAF10203410520
 - expected_values:
-    ECT: 31
-  response: 18DAF10603410547
+    ECT: 23
+  response: 18DAF1060341053F
