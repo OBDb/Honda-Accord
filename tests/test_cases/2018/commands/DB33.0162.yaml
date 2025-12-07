@@ -1,8 +1,8 @@
 command_id: DB33.0162
 test_cases:
 - expected_values:
-    TQ_ACT: 14
-  response: 18DAF1100341628B
+    TQ_ACT: 0
+  response: 18DAF1100341627D
 - expected_values:
-    TQ_ACT: 27
-  response: 18DAF11003416298
+    TQ_ACT: 54
+  response: 18DAF110034162B3

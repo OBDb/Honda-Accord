@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     EXH_RATE: 11.2
   response: 18DAF11004419E0038
+- expected_values:
+    EXH_RATE: 13.2
+  response: 18DAF11004419E0042
