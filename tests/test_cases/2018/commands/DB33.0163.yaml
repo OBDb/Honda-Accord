@@ -7,5 +7,5 @@ test_cases:
     TQ_REF: 179
   response: 18DAF11004416300B3
 - expected_values:
-    TQ_REF: 274
-  response: 18DAF1100441630112
+    TQ_REF: 256
+  response: 18DAF1100441630100

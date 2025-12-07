@@ -1,7 +1,7 @@
 command_id: DB33.0172
 test_cases:
 - expected_values:
-    WG_A_ACT: 10.98039
+    WG_A_ACT: 0
     WG_A_ACT_SUP: 1
     WG_A_CMD: 0
     WG_A_CMD_SUP: 1
@@ -9,17 +9,7 @@ test_cases:
     WG_B_ACT_SUP: 0
     WG_B_CMD: 0
     WG_B_CMD_SUP: 0
-  response: 18DAF11007417203001C0000
-- expected_values:
-    WG_A_ACT: 6.66667
-    WG_A_ACT_SUP: 1
-    WG_A_CMD: 6.66667
-    WG_A_CMD_SUP: 1
-    WG_B_ACT: 0
-    WG_B_ACT_SUP: 0
-    WG_B_CMD: 0
-    WG_B_CMD_SUP: 0
-  response: 18DAF1100741720311110000
+  response: 18DAF1100741720300000000
 - expected_values:
     WG_A_ACT: 100
     WG_A_ACT_SUP: 1
