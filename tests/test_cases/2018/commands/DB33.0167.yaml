@@ -3,17 +3,17 @@ test_cases:
 - expected_values:
     ECT_1: 38
     ECT_1_SUP: 1
-    ECT_2: 10
+    ECT_2: 9
     ECT_2_SUP: 1
   response: |-
-    18DAF110054167034E32
-    18DAF11E054167034E32
+    18DAF110054167034E31
+    18DAF11E054167034E31
 - expected_values:
-    ECT_1: 40
+    ECT_1: 39
     ECT_1_SUP: 1
-    ECT_2: 10
+    ECT_2: 9
     ECT_2_SUP: 1
-  response: 18DAF110054167035032
+  response: 18DAF110054167034F31
 - expected_values:
     ECT_1: 41
     ECT_1_SUP: 1
@@ -22,6 +22,14 @@ test_cases:
   response: |-
     18DAF110054167035137
     18DAF11E054167035137
+- expected_values:
+    ECT_1: 76
+    ECT_1_SUP: 1
+    ECT_2: 8
+    ECT_2_SUP: 1
+  response: |-
+    18DAF110054167037430
+    18DAF11E054167037430
 - expected_values:
     ECT_1: 91
     ECT_1_SUP: 1
@@ -51,11 +59,11 @@ test_cases:
     18DAF110054167038650
     18DAF11E054167038650
 - expected_values:
-    ECT_1: 48
+    ECT_1: 43
     ECT_1_SUP: 1
-    ECT_2: 12
+    ECT_2: 9
     ECT_2_SUP: 1
-  response: 18DAF11E054167035834
+  response: 18DAF11E054167035331
 - expected_values:
     ECT_1: 58
     ECT_1_SUP: 1

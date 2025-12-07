@@ -34,7 +34,7 @@ test_cases:
     TP_A_REL: 5.88235
     TP_B_REL: 0
   response: |-
-    18DAF11007416C030C0B0000
+    18DAF11007416C030A0C0000
     18DAF11E07416C02000F0000
 - expected_values:
     CTAC_A_SUP: 0
