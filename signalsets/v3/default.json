@@ -8,7 +8,7 @@
   "signals": [
     {"id": "ACCORD_GEAR", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
-{ "hdr": "DA60", "rax": "60", "fcm1": true, "cmd": {"22": "7028"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "fcm1": true, "cmd": {"22": "7028"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2017, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_AAT", "path": "Climate", "fmt": {"bix": 136, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outside air temperature"}
   ]}
