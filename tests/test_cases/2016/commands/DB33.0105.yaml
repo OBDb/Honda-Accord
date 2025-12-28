@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ECT: 62
   response: 18DAF10E03410566
+- expected_values:
+    ECT: 66
+  response: 18DAF10E0341056A
