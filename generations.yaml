@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Honda_Accord"
+
 generations:
   - name: "First Generation"
     start_year: 1976
