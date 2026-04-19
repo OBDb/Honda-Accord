@@ -4,7 +4,7 @@
     {"id": "ACCORD_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
     {"id": "ACCORD_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,    "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "fcm1": true, "cmd": {"22": "2221"}, "freq": 30, "filter": { "to": 2011 }, "dbgfilter": { "to": 2009 },
+{ "hdr": "DA1D", "rax": "1D", "fcm1": true, "cmd": {"22": "2221"}, "freq": 30, "filter": { "to": 2011 }, "dbgfilter": { "to": 2007, "years": [2009] },
   "signals": [
     {"id": "ACCORD_GEAR", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
