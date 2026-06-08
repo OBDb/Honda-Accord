@@ -4,5 +4,11 @@ test_cases:
     SPARKADV: 0
   response: 18DAF10E03410E80
 - expected_values:
+    SPARKADV: 0
+  response: 18DAF10E03410E8055555555
+- expected_values:
+    SPARKADV: 5
+  response: 18DAF10E03410E8A55555555
+- expected_values:
     SPARKADV: 9
   response: 18DAF10E03410E92
