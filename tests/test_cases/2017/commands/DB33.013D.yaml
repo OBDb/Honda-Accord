@@ -1,0 +1,20 @@
+command_id: DB33.013D
+test_cases:
+- expected_values:
+    CATEMP21: 63.5
+  response: 18DAF10E04413D040B555555
+- expected_values:
+    CATEMP21: 64.1
+  response: 18DAF10E04413D0411555555
+- expected_values:
+    CATEMP21: 299.8
+  response: 18DAF10E04413D0D46555555
+- expected_values:
+    CATEMP21: 419.7
+  response: 18DAF10E04413D11F5555555
+- expected_values:
+    CATEMP21: 434
+  response: 18DAF10E04413D1284555555
+- expected_values:
+    CATEMP21: 462.3
+  response: 18DAF10E04413D139F555555
