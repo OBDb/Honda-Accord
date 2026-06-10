@@ -16,5 +16,11 @@ test_cases:
     IAT: 62
   response: 18DAF10E03410F66
 - expected_values:
+    IAT: 62
+  response: 18DAF10E03410F6655555555
+- expected_values:
+    IAT: 63
+  response: 18DAF10E03410F6755555555
+- expected_values:
     IAT: 69
   response: 18DAF10E03410F6D55555555
