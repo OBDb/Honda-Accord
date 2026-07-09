@@ -1,0 +1,11 @@
+command_id: DB33.0123
+test_cases:
+- expected_values:
+    FRP: 100
+  response: 18DAF10E044123000A
+- expected_values:
+    FRP: 3440
+  response: 18DAF10E0441230158
+- expected_values:
+    FRP: 3470
+  response: 18DAF10E044123015B

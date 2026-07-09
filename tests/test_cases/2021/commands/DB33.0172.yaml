@@ -1,0 +1,12 @@
+command_id: DB33.0172
+test_cases:
+- expected_values:
+    WG_A_ACT: 99.60784
+    WG_A_ACT_SUP: 1
+    WG_A_CMD: 100
+    WG_A_CMD_SUP: 1
+    WG_B_ACT: 0
+    WG_B_ACT_SUP: 0
+    WG_B_CMD: 0
+    WG_B_CMD_SUP: 0
+  response: 18DAF11007417203FFFE0000
