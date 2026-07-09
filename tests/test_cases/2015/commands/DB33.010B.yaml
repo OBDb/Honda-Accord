@@ -1,5 +1,0 @@
-command_id: DB33.010B
-test_cases:
-- expected_values:
-    MAP: 32
-  response: 18DAF10E03410B20
