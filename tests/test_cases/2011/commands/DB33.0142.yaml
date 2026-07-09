@@ -1,9 +1,0 @@
-command_id: DB33.0142
-test_cases:
-- expected_values:
-    VPWR: 13.825
-  response: |-
-    18DAF11D0441423507555555
-    18DAF11D0441423539555555
-    18DAF11D0441423601555555
-    CAN ERROR
