@@ -1,0 +1,12 @@
+command_id: DB33.0113
+test_cases:
+- expected_values:
+    O2S11_EXISTS: 1
+    O2S12_EXISTS: 1
+    O2S13_EXISTS: 0
+    O2S14_EXISTS: 0
+    O2S21_EXISTS: 0
+    O2S22_EXISTS: 0
+    O2S23_EXISTS: 0
+    O2S24_EXISTS: 0
+  response: 18DAF10E03411303

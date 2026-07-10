@@ -1,0 +1,5 @@
+command_id: DB33.018E
+test_cases:
+- expected_values:
+    TQ_FR: 9
+  response: 18DAF11003418E86
