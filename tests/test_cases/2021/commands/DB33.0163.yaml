@@ -1,0 +1,5 @@
+command_id: DB33.0163
+test_cases:
+- expected_values:
+    TQ_REF: 110
+  response: 18DAF110044163006E
