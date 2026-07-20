@@ -1,9 +1,13 @@
 command_id: DB33.0124
 test_cases:
 - expected_values:
-    LAMBDA11_VOLT: 0.82904
-    O2S11_VOLT: 1.64959
-  response: 18DAF10E0641246A1E34D0
+    LAMBDA11_VOLT: 0.71725
+    O2S11_VOLT: 1.21035
+  response: 18DAF10E0641245BCF26C0
+- expected_values:
+    LAMBDA11_VOLT: 0.72089
+    O2S11_VOLT: 1.16642
+  response: 18DAF10E0641245C462558
 - expected_values:
     LAMBDA11_VOLT: 0.93784
     O2S11_VOLT: 2.03026
