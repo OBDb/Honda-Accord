@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BARO: 93
   response: 18DAF10E0341335D
+- expected_values:
+    BARO: 97
+  response: 18DAF10E03413361
