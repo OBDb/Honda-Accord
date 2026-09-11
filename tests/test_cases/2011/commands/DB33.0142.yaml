@@ -7,3 +7,13 @@ test_cases:
     18DAF11D0441423539555555
     18DAF11D0441423601555555
     CAN ERROR
+- expected_values:
+    VPWR: 14
+  response: |-
+    18DAF11D04414236E2
+    18DAF11104414236B0
+- expected_values:
+    VPWR: 14.05
+  response: |-
+    18DAF11D04414236E2
+    18DAF11104414236E2
