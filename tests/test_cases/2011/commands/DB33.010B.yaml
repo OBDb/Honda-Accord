@@ -5,3 +5,13 @@ test_cases:
   response: |-
     18DAF11103410B1F
     18DAF11D03410B1F
+- expected_values:
+    MAP: 22
+  response: |-
+    18DAF11D03410B16
+    18DAF11103410B16
+- expected_values:
+    MAP: 63
+  response: |-
+    18DAF11D03410B40
+    18DAF11103410B3F
