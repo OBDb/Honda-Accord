@@ -35,12 +35,17 @@ test_cases:
     18DAF11D03410D7C55555555
     CAN ERROR
 - expected_values:
-    VSS: 129
+    VSS: 128
   response: |-
-    18DAF11103410D81
-    18DAF11D03410D81
+    18DAF11103410D80
+    18DAF11D03410D80
 - expected_values:
     VSS: 0
   response: |-
     18DAF11D03410D00
     18DAF11103410D00
+- expected_values:
+    VSS: 131
+  response: |-
+    18DAF11D03410D83
+    18DAF11103410D83
