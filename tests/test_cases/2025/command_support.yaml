@@ -92,6 +92,8 @@ supported_commands_by_ecu:
   - DB33.018E:TQ_FR
   - DB33.01A6:ODO
 unsupported_commands_by_ecu:
+  "DA0E":
+  - DA0E.0E.222612:ACCORD_CURRENT_GEAR_VAR_2,ACCORD_CURRENT_GEAR_VAR_3
   "DA10":
   - DA10.10.222615:ACCORD_ACTIVE_CYL
   - DA10.222660
