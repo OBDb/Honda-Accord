@@ -1,16 +1,177 @@
 { "commands": [
+{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2612"}, "freq": 0.25,
+  "signals": [
+    {"id": "ACCORD_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": {"bix": 352, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear var.2"},
+    {"id": "ACCORD_CURRENT_GEAR_VAR_3", "path": "Transmission", "fmt": {"bix": 368, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear var.3"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
+  "signals": [
+    {"id": "ACCORD_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 1000, "unit": "kilopascal" }, "name": "A/C pressure"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORD_GENERATOR", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
+    {"id": "ACCORD_AC_CLUTCH", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "A/C clutch"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "ACCORD_FUEL_AIR_RATIO", "path": "Fuel",   "fmt": {           "len": 8,  "max": 255,                             "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"},
+    {"id": "ACCORD_AIRGAS_RATIO",   "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2612"}, "freq": 0.25,
+  "signals": [
+    {"id": "ACCORD_VTEC_CTRL", "path": "ECU", "fmt": {"bix": 168, "len": 8, "max": 255, "unit": "scalar" }, "name": "Variable valve control"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2615"}, "freq": 1,
+  "signals": [
+    {"id": "ACCORD_ACTIVE_CYL", "path": "Engine", "fmt": {"bix": 400, "len": 8, "max": 6, "unit": "scalar" }, "name": "Active cylinders"}
+  ]},
 { "hdr": "DA10", "rax": "10", "fcm1": true, "cmd": {"22": "2660"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "years": [2012, 2015, 2016, 2017, 2020], "from": 2027 },
   "signals": [
     {"id": "ACCORD_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
     {"id": "ACCORD_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,    "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "fcm1": true, "cmd": {"22": "2221"}, "freq": 30, "filter": { "to": 2011 }, "dbgfilter": { "to": 2007, "years": [2009] },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2661"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORD_FUELAIR_CAR", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "div": 2229.08163265, "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2662"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORD_KNOCK_CONTROL", "path": "Engine", "fmt": {"bix": 80,  "len": 8, "max": 2,   "mul": 2,   "div": 255, "unit": "unknown" }, "name": "Knock control",                "description": "ECU's determination of fuel quality."},
+    {"id": "ACCORD_VTC_DUTY",      "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable timing control duty", "description": "How long the valve is energized versus how long it's not energized, expressed as a percentage. The higher the duty percentage, the more the cam timing is advanced toward its maximum potential."}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2663"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORD_MIS_1", "path": "Engine", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1"},
+    {"id": "ACCORD_MIS_2", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2"},
+    {"id": "ACCORD_MIS_3", "path": "Engine", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #3"},
+    {"id": "ACCORD_MIS_4", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #4"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2666"}, "freq": 5,
+  "signals": [
+    {"id": "ACCORD_EOT_VAR_3", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 3"},
+    {"id": "ACCORD_EOT_VAR_4", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 4"}
+  ]},
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2611"}, "freq": 5,
+  "signals": [
+    {"id": "ACCORD_AIRGAS_RATIO_V2", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
+  ]},
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2612"}, "freq": 1,
+  "signals": [
+    {"id": "ACCORD_VTEC_VALVE_CTRL", "path": "Engine", "fmt": {"bix": 175, "len": 1, "max": 1, "unit": "offon" }, "name": "VTEC valve control", "description": "VTEC works by switching between two (or sometimes three) different camshaft profiles by engaging or disengaging a mechanism that locks the valve rocker arms together. When VTEC is OFF, the engine operates using the standard cam profile, which is typically optimized for fuel efficiency and low-end torque. When VTEC is ON, the system switches to a high-performance cam profile that allows the valves to open wider and for a longer duration, enabling better airflow at higher RPMs for increased power."}
+  ]},
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2660"}, "freq": 5, "dbgfilter": { "to": 2010, "from": 2012 },
+  "signals": [
+    {"id": "ACCORD_RUNTM_V2", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
+  ]},
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2662"}, "freq": 5,
+  "signals": [
+    {"id": "ACCORD_KNOCK_CONTROL_V2", "path": "Engine", "fmt": {"bix": 80, "len": 8,  "max": 1.99,             "mul": 1.99, "div": 255,             "unit": "scalar"  }, "name": "Knock control"},
+    {"id": "ACCORD_CAT_T",            "path": "Engine", "fmt": {"bix": 96, "len": 16, "max": 1500, "min": -40,              "div": 10,  "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
+  ]},
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
+  "signals": [
+    {"id": "ACCORD_MISFIRE_COUNT_1_VAR_3", "path": "Engine", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1, variant 3"},
+    {"id": "ACCORD_MISFIRE_COUNT_2_VAR_3", "path": "Engine", "fmt": {"bix": 176, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2, variant 3"},
+    {"id": "ACCORD_MISFIRE_COUNT_3_VAR_3", "path": "Engine", "fmt": {"bix": 192, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #3, variant 3"},
+    {"id": "ACCORD_MISFIRE_COUNT_4_VAR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #4, variant 3"},
+    {"id": "ACCORD_MISFIRE_COUNT_1_VAR_2", "path": "Engine", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1, variant 2"},
+    {"id": "ACCORD_MISFIRE_COUNT_2_VAR_2", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2, variant 2"},
+    {"id": "ACCORD_MISFIRE_COUNT_3_VAR_2", "path": "Engine", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #3, variant 2"},
+    {"id": "ACCORD_MISFIRE_COUNT_4_VAR_2", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #4, variant 2"}
+  ]},
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2666"}, "freq": 5,
+  "signals": [
+    {"id": "ACCORD_EOT_VAR_1", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 1"},
+    {"id": "ACCORD_EOT_VAR_2", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 2"}
+  ]},
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "266C"}, "freq": 1,
+  "signals": [
+    {"id": "ACCORD_MISFIRE_COUNT_1_VAR_1", "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #1, variant 1"},
+    {"id": "ACCORD_MISFIRE_COUNT_2_VAR_1", "path": "Engine", "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #2, variant 1"},
+    {"id": "ACCORD_MISFIRE_COUNT_3_VAR_1", "path": "Engine", "fmt": {"bix": 64, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #3, variant 1"},
+    {"id": "ACCORD_MISFIRE_COUNT_4_VAR_1", "path": "Engine", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #4, variant 1"}
+  ]},
+{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2201"}, "freq": 5,
+  "signals": [
+    {"id": "ACCORD_ATF_T", "path": "Transmission", "fmt": {"bix": 208, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
+  ]},
+{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2203"}, "freq": 1,
+  "signals": [
+    {"id": "ACCORD_EOP", "path": "ECU", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Oil pressure"}
+  ]},
+{ "hdr": "DA1D", "rax": "1D", "fcm1": true, "cmd": {"22": "2221"}, "freq": 0.25, "filter": { "to": 2011 }, "dbgfilter": { "to": 2007, "years": [2009] },
   "signals": [
     {"id": "ACCORD_GEAR", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
+  ]},
+{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2660"}, "freq": 30,
+  "signals": [
+    {"id": "ACCORD_ODO_V2", "path": "Trips", "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "2201"}, "freq": 5,
+  "signals": [
+    {"id": "ACCORD_ATF_T_VAR_4", "path": "Engine", "fmt": {"bix": 208, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 4", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
+{ "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "3083"}, "freq": 5,
+  "signals": [
+    {"id": "ACCORD_ATF_T_DA1E", "path": "Transmission", "fmt": {"bix": 112, "len": 8, "max": 200, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature"}
+  ]},
+{ "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "3086"}, "freq": 0.25,
+  "signals": [
+    {"id": "ACCORD_GEAR_DA1E", "path": "Transmission", "name": "Transmission gear", "fmt": {"bix": 160, "len": 8, "map": {
+          "0":  { "description": "Park",    "value": "P" },
+          "1":  { "description": "Drive 1", "value": "D1" },
+          "2":  { "description": "Drive 2", "value": "D2" },
+          "3":  { "description": "Drive 3", "value": "D3" },
+          "4":  { "description": "Drive 4", "value": "D4" },
+          "5":  { "description": "Drive 5", "value": "D5" },
+          "6":  { "description": "Drive 6", "value": "D6" },
+          "7":  { "description": "Drive 7", "value": "D7" },
+          "8":  { "description": "Drive 8", "value": "D8" },
+          "9":  { "description": "Drive 9", "value": "D9" },
+          "14": { "description": "Neutral", "value": "N" },
+          "15": { "description": "Reverse", "value": "R" }
+        }}
+    }
+  ]},
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4004"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "ACCORD_BRK_SW", "path": "Electrical", "fmt": {"bix": 127, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
+  ]},
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4005"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "ACCORD_BRK_P", "path": "Electrical", "fmt": {"bix": 56, "len": 16, "max": 120, "add": -25, "unit": "bars" }, "name": "Brake pressure"}
+  ]},
+{ "hdr": "DA2A", "rax": "2A", "cmd": {"22": "4201"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "ACCORD_BRK_PED_STK",  "path": "Electrical", "fmt": {"bix": 88,  "len": 16, "max": 50,     "div": 10,  "unit": "millimeters" }, "name": "Brake pedal stroke"},
+    {"id": "ACCORD_BRK_FLD_P",    "path": "Electrical", "fmt": {"bix": 168, "len": 16, "max": 5,      "div": 100, "unit": "unknown"     }, "name": "Brake fluid pressure"},
+    {"id": "ACCORD_MSTR_CYL_STK", "path": "Electrical", "fmt": {"bix": 232, "len": 16, "max": 6553.5, "div": 10,  "unit": "millimeters" }, "name": "Master cylinder stroke"},
+    {"id": "ACCORD_SLV_CYL_STK",  "path": "Electrical", "fmt": {"bix": 248, "len": 16, "max": 6553.5, "div": 10,  "unit": "millimeters" }, "name": "Slave cylinder stroke"}
+  ]},
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2021 },
+  "signals": [
+    {"id": "ACCORD_ODO_V3", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 200000, "unit": "miles" }, "name": "Odometer, variation 3"}
   ]},
 { "hdr": "DA60", "rax": "60", "fcm1": true, "cmd": {"22": "7028"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2012, "from": 2027 },
   "signals": [
     {"id": "ACCORD_AAT", "path": "Climate", "fmt": {"bix": 136, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outside air temperature"}
+  ]},
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7029"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2019, 2021, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORD_FLV", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 655, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7060"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "ACCORD_MAINT_OIL_FLT",   "path": "Engine", "fmt": {"bix": 112, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, oil & filter"},
+    {"id": "ACCORD_MAINT_SPARK",     "path": "Engine", "fmt": {"bix": 128, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, spark plugs & valves"},
+    {"id": "ACCORD_MAINT_INSP",      "path": "Engine", "fmt": {"bix": 208, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, general inspection"},
+    {"id": "ACCORD_MAINT_TIRE",      "path": "Tires",  "fmt": {"bix": 224, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, tire rotation"},
+    {"id": "ACCORD_MAINT_CABIN_FLT", "path": "Engine", "fmt": {"bix": 240, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, cabin filter"},
+    {"id": "ACCORD_MAINT_TRANS_FLD", "path": "Engine", "fmt": {"bix": 256, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, transmission fluid"},
+    {"id": "ACCORD_MAINT_COOL",      "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, engine coolant"},
+    {"id": "ACCORD_MAINT_BRK_FLD",   "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, rake fluid"},
+    {"id": "ACCORD_MAINT_AIR_CLN",   "path": "Engine", "fmt": {"bix": 336, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, air cleaner"}
   ]}
 ]
 }
