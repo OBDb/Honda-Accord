@@ -1,4 +1,11 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "DA0E", "type": "engine" },
+    { "hdr": "DA10", "type": "engine" },
+    { "hdr": "DA11", "type": "engine" },
+    { "hdr": "DA1D", "type": "transmission" },
+    { "hdr": "DA1E", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "ACCORD_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": {"bix": 352, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear var.2"},
