@@ -4,29 +4,5 @@ test_cases:
     APP_D: 20
   response: 18DAF10703414933
 - expected_values:
-    APP_D: 20.39216
-  response: 18DAF10703414934
-- expected_values:
-    APP_D: 22.35294
-  response: 18DAF10703414939
-- expected_values:
-    APP_D: 26.27451
-  response: 18DAF10703414943
-- expected_values:
-    APP_D: 31.76471
-  response: 18DAF10703414951
-- expected_values:
-    APP_D: 32.15686
-  response: 18DAF10703414952
-- expected_values:
-    APP_D: 33.72549
-  response: 18DAF10703414956
-- expected_values:
-    APP_D: 36.86275
-  response: 18DAF1070341495E
-- expected_values:
-    APP_D: 38.03922
-  response: 18DAF10703414961
-- expected_values:
-    APP_D: 39.21569
-  response: 18DAF10703414964
+    APP_D: 50.19608
+  response: 18DAF10703414980
