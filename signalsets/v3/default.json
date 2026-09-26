@@ -13,16 +13,16 @@
     {"id": "ACCORD_GENERATOR", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
     {"id": "ACCORD_AC_CLUTCH", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "A/C clutch"}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_FUEL_AIR_RATIO", "path": "Fuel",   "fmt": {           "len": 8,  "max": 255,                             "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"},
     {"id": "ACCORD_AIRGAS_RATIO",   "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_VTEC_CTRL", "path": "ECU", "fmt": {"bix": 168, "len": 8, "max": 255, "unit": "scalar" }, "name": "Variable valve control"}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2615"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2615"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "ACCORD_ACTIVE_CYL", "path": "Engine", "fmt": {"bix": 400, "len": 8, "max": 6, "unit": "scalar" }, "name": "Active cylinders"}
   ]},
@@ -134,11 +134,11 @@
         }}
     }
   ]},
-{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4004"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4004"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_BRK_SW", "path": "Electrical", "fmt": {"bix": 127, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
   ]},
-{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4005"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4005"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_BRK_P", "path": "Electrical", "fmt": {"bix": 56, "len": 16, "max": 120, "add": -25, "unit": "bars" }, "name": "Brake pressure"}
   ]},
@@ -149,7 +149,7 @@
     {"id": "ACCORD_MSTR_CYL_STK", "path": "Electrical", "fmt": {"bix": 232, "len": 16, "max": 6553.5, "div": 10,  "unit": "millimeters" }, "name": "Master cylinder stroke"},
     {"id": "ACCORD_SLV_CYL_STK",  "path": "Electrical", "fmt": {"bix": 248, "len": 16, "max": 6553.5, "div": 10,  "unit": "millimeters" }, "name": "Slave cylinder stroke"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_ODO_V3", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 200000, "unit": "miles" }, "name": "Odometer, variation 3"}
   ]},
