@@ -62,7 +62,7 @@
 { "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2610"}, "freq": 1,
   "signals": [
     {"id": "ACCORD_GENERATOR_DA11", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
-    {"id": "ACCORD_AC_CLUTCH_DA11", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "Air conditioner clutch"}
+    {"id": "ACCORD_AC_CLU_DA11",    "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "Air conditioner clutch"}
   ]},
 { "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2611"}, "freq": 5,
   "signals": [
@@ -124,10 +124,10 @@
   ]},
 { "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
   "signals": [
-    {"id": "ACCORD_MISFIRE_COUNT_1", "path": "Engine", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 1"},
-    {"id": "ACCORD_MISFIRE_COUNT_2", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 2"},
-    {"id": "ACCORD_MISFIRE_COUNT_3", "path": "Engine", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 3"},
-    {"id": "ACCORD_MISFIRE_COUNT_4", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 4"}
+    {"id": "ACCORD_MIS_CNT_1", "path": "Engine", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 1"},
+    {"id": "ACCORD_MIS_CNT_2", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 2"},
+    {"id": "ACCORD_MIS_CNT_3", "path": "Engine", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 3"},
+    {"id": "ACCORD_MIS_CNT_4", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 4"}
   ]},
 { "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "2201"}, "freq": 5,
   "signals": [
