@@ -59,6 +59,11 @@
     {"id": "ACCORD_EOT_VAR_3", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 3"},
     {"id": "ACCORD_EOT_VAR_4", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 4"}
   ]},
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2610"}, "freq": 1,
+  "signals": [
+    {"id": "ACCORD_GENERATOR_DA11", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
+    {"id": "ACCORD_AC_CLU_DA11",    "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "Air conditioner clutch"}
+  ]},
 { "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2611"}, "freq": 5,
   "signals": [
     {"id": "ACCORD_AIRGAS_RATIO_V2", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
@@ -73,8 +78,9 @@
   ]},
 { "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2662"}, "freq": 5,
   "signals": [
-    {"id": "ACCORD_KNOCK_CONTROL_V2", "path": "Engine", "fmt": {"bix": 80, "len": 8,  "max": 1.99,             "mul": 1.99, "div": 255,             "unit": "scalar"  }, "name": "Knock control"},
-    {"id": "ACCORD_CAT_T",            "path": "Engine", "fmt": {"bix": 96, "len": 16, "max": 1500, "min": -40,              "div": 10,  "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
+    {"id": "ACCORD_KNOCK_CONTROL_V2", "path": "Engine", "fmt": {"bix": 80,  "len": 8,  "max": 1.99,             "mul": 1.99, "div": 255,             "unit": "scalar"  }, "name": "Knock control"},
+    {"id": "ACCORD_CAT_T",            "path": "Engine", "fmt": {"bix": 96,  "len": 16, "max": 1500, "min": -40,              "div": 10,  "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"},
+    {"id": "ACCORD_VTC_DUTY_DA11",    "path": "Engine", "fmt": {"bix": 224, "len": 8,  "max": 100,              "mul": 100,  "div": 255,             "unit": "percent" }, "name": "Variable timing control duty"}
   ]},
 { "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
   "signals": [
@@ -89,8 +95,9 @@
   ]},
 { "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2666"}, "freq": 5,
   "signals": [
-    {"id": "ACCORD_EOT_VAR_1", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 1"},
-    {"id": "ACCORD_EOT_VAR_2", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 2"}
+    {"id": "ACCORD_OIL_LEVEL", "path": "Engine", "fmt": {"bix": 48,  "len": 8, "max": 127.5,             "div": 2,             "unit": "millimeters" }, "name": "Engine oil level"},
+    {"id": "ACCORD_EOT_VAR_1", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215,   "min": -40,           "add": -40, "unit": "celsius"     }, "name": "Engine oil temperature, variant 1"},
+    {"id": "ACCORD_EOT_VAR_2", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215,   "min": -40,           "add": -40, "unit": "celsius"     }, "name": "Engine oil temperature, variant 2"}
   ]},
 { "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "266C"}, "freq": 1,
   "signals": [
@@ -114,6 +121,13 @@
 { "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2660"}, "freq": 30,
   "signals": [
     {"id": "ACCORD_ODO_V2", "path": "Trips", "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
+  "signals": [
+    {"id": "ACCORD_MIS_CNT_1", "path": "Engine", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 1"},
+    {"id": "ACCORD_MIS_CNT_2", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 2"},
+    {"id": "ACCORD_MIS_CNT_3", "path": "Engine", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 3"},
+    {"id": "ACCORD_MIS_CNT_4", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 4"}
   ]},
 { "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "2201"}, "freq": 5,
   "signals": [
