@@ -129,7 +129,7 @@
     {"id": "ACCORD_MIS_CNT_3", "path": "Engine", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 3"},
     {"id": "ACCORD_MIS_CNT_4", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 4"}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "2201"}, "freq": 5,
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2201"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "ACCORD_ATF_T_VAR_4", "path": "Engine", "fmt": {"bix": 208, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 4", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
