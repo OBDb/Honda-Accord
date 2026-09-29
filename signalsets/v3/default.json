@@ -59,16 +59,16 @@
     {"id": "ACCORD_EOT_VAR_3", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 3"},
     {"id": "ACCORD_EOT_VAR_4", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 4"}
   ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2610"}, "freq": 1,
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "ACCORD_GENERATOR_DA11", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
     {"id": "ACCORD_AC_CLU_DA11",    "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "Air conditioner clutch"}
   ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2611"}, "freq": 5,
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "ACCORD_AIRGAS_RATIO_V2", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
   ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2612"}, "freq": 1,
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2612"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "ACCORD_VTEC_VALVE_CTRL", "path": "Engine", "fmt": {"bix": 175, "len": 1, "max": 1, "unit": "offon" }, "name": "VTEC valve control", "description": "VTEC works by switching between two (or sometimes three) different camshaft profiles by engaging or disengaging a mechanism that locks the valve rocker arms together. When VTEC is OFF, the engine operates using the standard cam profile, which is typically optimized for fuel efficiency and low-end torque. When VTEC is ON, the system switches to a high-performance cam profile that allows the valves to open wider and for a longer duration, enabling better airflow at higher RPMs for increased power."}
   ]},
@@ -76,13 +76,13 @@
   "signals": [
     {"id": "ACCORD_RUNTM_V2", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2662"}, "freq": 5,
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2662"}, "freq": 5, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "ACCORD_KNOCK_CONTROL_V2", "path": "Engine", "fmt": {"bix": 80,  "len": 8,  "max": 1.99,             "mul": 1.99, "div": 255,             "unit": "scalar"  }, "name": "Knock control"},
     {"id": "ACCORD_CAT_T",            "path": "Engine", "fmt": {"bix": 96,  "len": 16, "max": 1500, "min": -40,              "div": 10,  "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"},
     {"id": "ACCORD_VTC_DUTY_DA11",    "path": "Engine", "fmt": {"bix": 224, "len": 8,  "max": 100,              "mul": 100,  "div": 255,             "unit": "percent" }, "name": "Variable timing control duty"}
   ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2663"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "ACCORD_MISFIRE_COUNT_1_VAR_3", "path": "Engine", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1, variant 3"},
     {"id": "ACCORD_MISFIRE_COUNT_2_VAR_3", "path": "Engine", "fmt": {"bix": 176, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2, variant 3"},
@@ -99,14 +99,14 @@
     {"id": "ACCORD_EOT_VAR_1", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215,   "min": -40,           "add": -40, "unit": "celsius"     }, "name": "Engine oil temperature, variant 1"},
     {"id": "ACCORD_EOT_VAR_2", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215,   "min": -40,           "add": -40, "unit": "celsius"     }, "name": "Engine oil temperature, variant 2"}
   ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "266C"}, "freq": 1,
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "266C"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "ACCORD_MISFIRE_COUNT_1_VAR_1", "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #1, variant 1"},
     {"id": "ACCORD_MISFIRE_COUNT_2_VAR_1", "path": "Engine", "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #2, variant 1"},
     {"id": "ACCORD_MISFIRE_COUNT_3_VAR_1", "path": "Engine", "fmt": {"bix": 64, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #3, variant 1"},
     {"id": "ACCORD_MISFIRE_COUNT_4_VAR_1", "path": "Engine", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #4, variant 1"}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2201"}, "freq": 5,
+{ "hdr": "DA1D", "rax": "1D", "cmd": {"22": "2201"}, "freq": 5, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "ACCORD_ATF_T", "path": "Transmission", "fmt": {"bix": 208, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},
