@@ -5,3 +5,8 @@ test_cases:
   response: |-
     18DAF11003414934
     18DAF11E03414934
+- expected_values:
+    APP_D: 36.86275
+  response: |-
+    18DAF11003414956
+    18DAF11E0341495E
