@@ -48,7 +48,7 @@ test_cases:
 - expected_values:
     ACCORD_BRK_FLD_P: 0
     ACCORD_BRK_PED_STK: 0
-    ACCORD_MSTR_CYL_STK: 6553.5
+    ACCORD_MSTR_CYL_STK: -0.1
     ACCORD_SLV_CYL_STK: 0
   response: |-
     18DAF12A103B6242010000FF
@@ -78,7 +78,7 @@ test_cases:
 - expected_values:
     ACCORD_BRK_FLD_P: 0
     ACCORD_BRK_PED_STK: 50
-    ACCORD_MSTR_CYL_STK: 6553.3
+    ACCORD_MSTR_CYL_STK: -0.3
     ACCORD_SLV_CYL_STK: 0
   response: |-
     18DAF12A103B6242010000FF
