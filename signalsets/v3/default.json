@@ -13,7 +13,7 @@
   ]},
 { "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
-    {"id": "ACCORD_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 1000, "unit": "kilopascal" }, "name": "A/C pressure"}
+    {"id": "ACCORD_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 4000, "unit": "kilopascal" }, "name": "A/C pressure"}
   ]},
 { "hdr": "DA10", "rax": "10", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
@@ -176,7 +176,7 @@
   ]},
 { "hdr": "DA60", "rax": "60", "fcm1": true, "cmd": {"22": "7028"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2012, "from": 2027 },
   "signals": [
-    {"id": "ACCORD_AAT", "path": "Climate", "fmt": {"bix": 136, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outside air temperature"}
+    {"id": "ACCORD_AAT", "path": "Climate", "fmt": {"bix": 132, "len": 12, "max": 2047, "min": -40, "sign": true, "nullmax": 141, "unit": "fahrenheit" }, "name": "Outside air temperature"}
   ]},
 { "hdr": "DA60", "rax": "60", "cmd": {"22": "7029"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
