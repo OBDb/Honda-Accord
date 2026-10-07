@@ -6,12 +6,12 @@
     { "hdr": "DA1E", "type": "transmission" }
   ],
   "commands": [
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2008, "from": 2010 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "ACCORD_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": {"bix": 352, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear var.2"},
     {"id": "ACCORD_CURRENT_GEAR_VAR_3", "path": "Transmission", "fmt": {"bix": 368, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear var.3"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "ACCORD_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 4000, "unit": "kilopascal" }, "name": "A/C pressure"}
   ]},
@@ -170,7 +170,7 @@
     {"id": "ACCORD_MSTR_CYL_STK", "path": "Electrical", "fmt": {"bix": 232, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,  "sign": true, "unit": "millimeters" }, "name": "Master cylinder stroke"},
     {"id": "ACCORD_SLV_CYL_STK",  "path": "Electrical", "fmt": {"bix": 248, "len": 16, "max": 6553.5,                 "div": 10,                "unit": "millimeters" }, "name": "Slave cylinder stroke"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2019, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_ODO_V3", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 200000, "unit": "miles" }, "name": "Odometer, variation 3"}
   ]},
@@ -178,11 +178,11 @@
   "signals": [
     {"id": "ACCORD_AAT", "path": "Climate", "fmt": {"bix": 132, "len": 12, "max": 2047, "min": -40, "sign": true, "nullmax": 141, "unit": "fahrenheit" }, "name": "Outside air temperature"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7029"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2019, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7029"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_FLV", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 655, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7060"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7060"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "ACCORD_MAINT_OIL_FLT",   "path": "Engine", "fmt": {"bix": 112, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, oil & filter"},
     {"id": "ACCORD_MAINT_SPARK",     "path": "Engine", "fmt": {"bix": 128, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, spark plugs & valves"},
