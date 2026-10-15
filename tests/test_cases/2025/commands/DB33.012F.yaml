@@ -4,6 +4,11 @@ test_cases:
     FLI: 6.27451
   response: 18DAF11003412F10
 - expected_values:
+    FLI: 45.09804
+  response: |-
+    18DAF11003412F73
+    18DAF11003412F73
+- expected_values:
     FLI: 49.41176
   response: |-
     18DAF11003412F7E
