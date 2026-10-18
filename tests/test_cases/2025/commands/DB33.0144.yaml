@@ -22,6 +22,11 @@ test_cases:
     EQ_RAT: 1
   response: |-
     18DAF1100441448000
+    18DAF1100641A6000550B4
+- expected_values:
+    EQ_RAT: 1
+  response: |-
+    18DAF1100441448000
     18DAF1EF024700
     18DAF107024700
     18DAF110024700
