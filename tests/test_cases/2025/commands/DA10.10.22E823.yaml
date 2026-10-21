@@ -1,0 +1,5 @@
+command_id: DA10.10.22E823
+test_cases:
+- expected_values:
+    ACCORD_RAW_10_E823: 0
+  response: 18DAF1100462E82300
