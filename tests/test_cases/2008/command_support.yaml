@@ -85,6 +85,7 @@ supported_commands_by_ecu:
   - DB33.010D:VSS
   - DB33.0110:MAF
   - DB33.0111:TP
+  - DB33.011C:OBDSUP
   - DB33.0121:MIL_DIST
   - DB33.012F:FLI
   - DB33.0130:WARM_UPS
