@@ -651,10 +651,6 @@
   "signals": [
     {"id": "ACCORD_RAW_10_F181", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 F181", "description": "Captured to learn this reply's layout. Its listed contents: Application software identification."}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "F190"}, "freq": 60,
-  "signals": [
-    {"id": "ACCORD_RAW_10_F190", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 F190", "description": "Captured to learn this reply's layout. Its listed contents: Vehicle identifier / VIN."}
-  ]},
 { "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "F806"}, "freq": 60,
   "signals": [
     {"id": "ACCORD_RAW_10_F806", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 F806", "description": "Captured to learn this reply's layout. Its listed contents: Calibration Verification Number."}
