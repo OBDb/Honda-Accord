@@ -1,5 +1,8 @@
 command_id: DA10.10.22E5FF
 test_cases:
 - expected_values:
+    ACCORD_RAW_10_E5FF: 0
+  response: 18DAF1100462E5FF00
+- expected_values:
     ACCORD_RAW_10_E5FF: 1
   response: 18DAF1100462E5FF01
