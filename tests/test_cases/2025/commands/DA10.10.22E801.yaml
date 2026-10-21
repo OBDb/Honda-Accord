@@ -1,0 +1,5 @@
+command_id: DA10.10.22E801
+test_cases:
+- expected_values:
+    ACCORD_RAW_10_E801: 51
+  response: 18DAF1100462E80133
