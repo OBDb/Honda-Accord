@@ -1,0 +1,20 @@
+command_id: DA10.10.22E600
+test_cases:
+- expected_values:
+    ACCORD_RAW_10_E600: 50
+  response: 18DAF1100562E6003200
+- expected_values:
+    ACCORD_RAW_10_E600: 50
+  response: 18DAF1100562E6003207
+- expected_values:
+    ACCORD_RAW_10_E600: 50
+  response: 18DAF1100562E6003214
+- expected_values:
+    ACCORD_RAW_10_E600: 56
+  response: 18DAF1100562E60038A9
+- expected_values:
+    ACCORD_RAW_10_E600: 56
+  response: 18DAF1100562E60038B0
+- expected_values:
+    ACCORD_RAW_10_E600: 56
+  response: 18DAF1100562E60038BD
