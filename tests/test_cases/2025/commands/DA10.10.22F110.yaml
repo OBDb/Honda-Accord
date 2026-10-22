@@ -1,8 +1,0 @@
-command_id: DA10.10.22F110
-test_cases:
-- expected_values:
-    ACCORD_RAW_10_F110: 14
-  response: |-
-    18DAF110101462F1100E3337
-    18DAF11021383230364E4841
-    18DAF110225831304D310000

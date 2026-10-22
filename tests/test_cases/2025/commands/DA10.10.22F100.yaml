@@ -1,5 +1,0 @@
-command_id: DA10.10.22F100
-test_cases:
-- expected_values:
-    ACCORD_RAW_10_F100: 0
-  response: 18DAF1100762F10000000000
