@@ -66,15 +66,15 @@
   "signals": [
     {"id": "ACCORD_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 4000, "unit": "kilopascal" }, "name": "A/C pressure"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "E50A"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50A"}, "freq": 60, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "ACCORD_RAW_0E_E50A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50A", "description": "Captured to learn this reply's layout. Its listed contents: Invalid Judgement; Refrence Search Judgement."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "E50B"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50B"}, "freq": 60, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "ACCORD_RAW_0E_E50B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50B", "description": "Captured to learn this reply's layout. Its listed contents: 2nd Retry Judgement; 3rd Retry Judgement; 4th Retry Judgement; 5th Retry Judgement; 6th Retry Judgement; 7th Retry Judgement; Low Retry Judgement; Rvs Retry Judgement."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "E50D"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50D"}, "freq": 60, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "ACCORD_RAW_0E_E50D", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50D", "description": "Captured to learn this reply's layout. Its listed contents: 1ST_CORERROR."}
   ]},
