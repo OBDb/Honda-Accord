@@ -1,0 +1,7 @@
+command_id: DA10.10.22E80E
+test_cases:
+- expected_values:
+    ACCORD_RAW_10_E80E: 0
+  response: |-
+    18DAF110100B62E80E000000
+    18DAF1102100000000005555
