@@ -1,0 +1,23 @@
+command_id: DA10.10.22E602
+test_cases:
+- expected_values:
+    ACCORD_RAW_10_E602: 11
+  response: 18DAF1100662E6020B2400
+- expected_values:
+    ACCORD_RAW_10_E602: 11
+  response: 18DAF1100662E6020B3C00
+- expected_values:
+    ACCORD_RAW_10_E602: 11
+  response: 18DAF1100662E6020B4800
+- expected_values:
+    ACCORD_RAW_10_E602: 11
+  response: 18DAF1100662E6020B4C00
+- expected_values:
+    ACCORD_RAW_10_E602: 12
+  response: 18DAF1100662E6020CFC00
+- expected_values:
+    ACCORD_RAW_10_E602: 23
+  response: 18DAF1100662E60217F400
+- expected_values:
+    ACCORD_RAW_10_E602: 27
+  response: 18DAF1100662E6021BBC00
