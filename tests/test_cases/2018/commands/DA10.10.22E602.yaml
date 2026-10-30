@@ -13,6 +13,12 @@ test_cases:
     ACCORD_RAW_10_E602: 11
   response: 18DAF1100662E6020B4C00
 - expected_values:
+    ACCORD_RAW_10_E602: 11
+  response: 18DAF1100662E6020B5000
+- expected_values:
+    ACCORD_RAW_10_E602: 11
+  response: 18DAF1100662E6020B5800
+- expected_values:
     ACCORD_RAW_10_E602: 12
   response: 18DAF1100662E6020CFC00
 - expected_values:
