@@ -5,7 +5,7 @@ test_cases:
   response: 18DAF1100562E60030C0
 - expected_values:
     ACCORD_RAW_10_E600: 56
-  response: 18DAF1100562E60038F4
+  response: 18DAF1100562E60038FB
 - expected_values:
     ACCORD_RAW_10_E600: 57
   response: 18DAF1100562E6003908
