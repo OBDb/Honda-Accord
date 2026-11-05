@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     ACCORD_RAW_10_E602: 27
   response: 18DAF1100662E6021BBC00
+- expected_values:
+    ACCORD_RAW_10_E602: 34
+  response: 18DAF1100662E602228C00
