@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     ACCORD_RAW_28_E600: 49
   response: 18DAF1280562E6003149
+- expected_values:
+    ACCORD_RAW_28_E600: 49
+  response: 18DAF1280562E6003170
