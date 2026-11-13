@@ -1,0 +1,5 @@
+command_id: DA10.10.222601
+test_cases:
+- expected_values:
+    ACCORD_RAW_10_2601: 1
+  response: 18DAF11006622601010000

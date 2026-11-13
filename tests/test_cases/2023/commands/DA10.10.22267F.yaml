@@ -1,0 +1,7 @@
+command_id: DA10.10.22267F
+test_cases:
+- expected_values:
+    ACCORD_RAW_10_267F: 0
+  response: |-
+    18DAF110100D62267F000000
+    18DAF1102100000000000000
