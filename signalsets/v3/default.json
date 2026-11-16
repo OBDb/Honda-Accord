@@ -779,15 +779,15 @@
         }}
     }
   ]},
-{ "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "E50A"}, "freq": 30,
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "E50A"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "ACCORD_RAW_1E_E50A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 E50A", "description": "Captured to learn this reply's layout. Its listed contents: Invalid Judgement; Refrence Search Judgement."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "E50B"}, "freq": 30,
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "E50B"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "ACCORD_RAW_1E_E50B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 E50B", "description": "Captured to learn this reply's layout. Its listed contents: 2nd Retry Judgement; 3rd Retry Judgement; 4th Retry Judgement; 5th Retry Judgement; 6th Retry Judgement; 7th Retry Judgement; Low Retry Judgement; Rvs Retry Judgement."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "dbg": true, "cmd": {"22": "E50D"}, "freq": 30,
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "E50D"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "ACCORD_RAW_1E_E50D", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 E50D", "description": "Captured to learn this reply's layout. Its listed contents: 1ST_CORERROR."}
   ]},
