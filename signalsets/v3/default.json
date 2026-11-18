@@ -66,15 +66,15 @@
   "signals": [
     {"id": "ACCORD_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 4000, "unit": "kilopascal" }, "name": "A/C pressure"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50A"}, "freq": 60, "dbgfilter": { "to": 2008, "from": 2010 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50A"}, "freq": 60, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "ACCORD_RAW_0E_E50A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50A", "description": "Captured to learn this reply's layout. Its listed contents: Invalid Judgement; Refrence Search Judgement."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50B"}, "freq": 60, "dbgfilter": { "to": 2008, "from": 2010 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50B"}, "freq": 60, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "ACCORD_RAW_0E_E50B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50B", "description": "Captured to learn this reply's layout. Its listed contents: 2nd Retry Judgement; 3rd Retry Judgement; 4th Retry Judgement; 5th Retry Judgement; 6th Retry Judgement; 7th Retry Judgement; Low Retry Judgement; Rvs Retry Judgement."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50D"}, "freq": 60, "dbgfilter": { "to": 2008, "from": 2010 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50D"}, "freq": 60, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "ACCORD_RAW_0E_E50D", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50D", "description": "Captured to learn this reply's layout. Its listed contents: 1ST_CORERROR."}
   ]},
@@ -918,15 +918,15 @@
   "signals": [
     {"id": "ACCORD_RAW_53_0006", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 0006", "description": "Captured to learn this reply's layout. Its listed contents: OPDS Initialization."}
   ]},
-{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8000"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8000"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_53_8000", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8000", "description": "Captured to learn this reply's layout. Its listed contents: ECU Maker; Number of Front Passenger's Seat Weight Sensor."}
   ]},
-{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8001"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8001"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_53_8001", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8001", "description": "Captured to learn this reply's layout. Its listed contents: Front Passenger's Airbag ON/OFF Switch Status; Left Front Seat Belt Buckle; Right Front Seat Belt Buckle; Passenger's Sitting Switch; Driver Seat Position Sensor; Passenger's Side Airbag OFF Indicator."}
   ]},
-{ "hdr": "DA53", "rax": "53", "dbg": true, "cmd": {"22": "8003"}, "freq": 60,
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8003"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "ACCORD_RAW_53_8003", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8003", "description": "Captured to learn this reply's layout. Its listed contents: Failure Control Unit Check."}
   ]},
@@ -934,23 +934,23 @@
   "signals": [
     {"id": "ACCORD_RAW_53_8005", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8005", "description": "Captured to learn this reply's layout. Its listed contents: Front Passenger's Weight."}
   ]},
-{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8010"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8010"}, "freq": 60, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "ACCORD_RAW_53_8010", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8010", "description": "Captured to learn this reply's layout. Its listed contents: Left Front Airbag, Left Front/Rear Seat Belt Tensioner and/or Left Knee Airbag Deployed; Left Knee Airbag Deployed; Right Front Airbag, Right Front/Rear Seat Belt Tensioner and/or Right Knee Airbag Deployed; Right Knee Airbag Deployed; Both or Only Side Curtain Airbag and Seat Belt Tensioner Deployed; ...."}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7010"}, "freq": 60, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7010"}, "freq": 60, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_7010", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7010", "description": "Captured to learn this reply's layout. Its listed contents: CVTF exchange indication implemented; Distance display unit; SmartMaintenance EU information output enable; Transmission type; Initial distance display unit; SmartMaintenance US information output enable."}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7012"}, "freq": 60, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7012"}, "freq": 60, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_7012", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7012", "description": "Captured to learn this reply's layout. Its listed contents: Parking Sensor equipment information."}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7020"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7020"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_7020", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7020", "description": "Captured to learn this reply's layout. Its listed contents: ABS Indicator; ACC(Amber) Indicator; ACC(Green) Indicator; Active Damper system trouble warn on MID; Adaptive Front-lighting system Indicator; TPMS/DWS Warning Indicator; Passenger's Airbag OFF indicator; AUTO STOP trouble Indicator; AUTO STOP operation Indicator; IMA auto-stop indicator; AT Temp trouble warn on MID; BATT Indicator; BRAKE Press Indicator; Brake(Amber) Indicator; ...."}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7021"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7021"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_7021", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7021", "description": "Captured to learn this reply's layout. Its listed contents: BRAKE HOLD active indicator; BRAKE HOLD standby indicator; Charging cable connect indicator; Drive READY status indicator; Driving battery failure indicator; E-Call System Failure Indicator; EV Driving Status Indicator; EV Mode Indicator; H2 Leak Warning Indicator; HV Charge Mode Indicator; HV Keep/Charge Mode Common Indicator; LPG Mode Indicator; Motor/Control unit hot indicator; ...."}
   ]},
@@ -966,11 +966,11 @@
   "signals": [
     {"id": "ACCORD_FLV", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 655, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "702A"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "702A"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_702A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 702A", "description": "Captured to learn this reply's layout. Its listed contents: Real fuel consumption to this fuel supply from the last fuel supply; Residual quantity of the fuel validated in the distance calculation which can be flown; RANGE upper indicated value; Fuel economy figures used for the distance calculation which can be flown; The actual fuel economy."}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "702B"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "702B"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_702B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 702B", "description": "Captured to learn this reply's layout. Its listed contents: Instantaneous Fuel Consumption Control Mode; Instantaneous Fuel Consumption Display unit; Instantaneous Fuel Consumption Value."}
   ]},
@@ -986,11 +986,11 @@
     {"id": "ACCORD_MAINT_BRK_FLD",   "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, rake fluid"},
     {"id": "ACCORD_MAINT_AIR_CLN",   "path": "Engine", "fmt": {"bix": 336, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, air cleaner"}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "7061"}, "freq": 60,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7061"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "ACCORD_RAW_60_7061", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7061", "description": "Captured to learn this reply's layout. Its listed contents: Real remaining distance 0; Real remaining distance 1; Real remaining distance 2; Real remaining distance 3; Real remaining distance 4; Real remaining distance 5; Real remaining distance 6; Real remaining distance 7; Real remaining distance 8; Real remaining distance 9; Real remaining distance A; Real remaining distance B."}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7068"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7068"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_7068", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7068", "description": "Captured to learn this reply's layout. Its listed contents: item 1 function enable; Real remaining days 1; Real remaining distance 1; item 2 function enable; Real remaining days 2; Real remaining distance 2; item 3 function enable; Sub maintenance item 3 judge method; Real remaining days 3; Real remaining distance 3; item 4 function enable; Real remaining days 4; Real remaining distance 4; item 5 function enable; Real remaining days 5; ...."}
   ]},
@@ -998,19 +998,19 @@
   "signals": [
     {"id": "ACCORD_RAW_60_7090", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7090", "description": "Captured to learn this reply's layout. Its listed contents: ODO value during Engine ON; odo value; ODO value readout status."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "70A0"}, "freq": 60,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70A0"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "ACCORD_RAW_60_70A0", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70A0", "description": "Captured to learn this reply's layout. Its listed contents: Item 0 exchange times; Item 0 distance when reset; Item 1 exchange times; Item 1 distance when reset; Item 2 exchange times; Item 2 distance when reset; Item 3 exchange times; Item 3 distance when reset; Item 4 exchange times; Item 4 distance when reset; Item 5 exchange times; Item 5 distance when reset; Item 6 exchange times; Item 6 distance when reset; Item 7 exchange times; ...."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "70A1"}, "freq": 60,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70A1"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "ACCORD_RAW_60_70A1", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70A1", "description": "Captured to learn this reply's layout. Its listed contents: Remaining days calculation; estimated annual traveled distance; estimated annual traveled distance with Engine ON; Item 0 time when reset; Item 1 time when reset; Item 2 time when reset; Item 3 time when reset; Item 4 time when reset; Item 5 time when reset; Item 6 time when reset; Item 7 time when reset; Item 8 time when reset; Item 9 time when reset; Item A reset status flag; ...."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "70A4"}, "freq": 60,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70A4"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "ACCORD_RAW_60_70A4", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70A4", "description": "Captured to learn this reply's layout. Its listed contents: MAINTE REQ'D Distance when reset; Oil maintenance for kei turbo car distance when reset."}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70A8"}, "freq": 60, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70A8"}, "freq": 60, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_70A8", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70A8", "description": "Captured to learn this reply's layout. Its listed contents: ATF exchange times; Oil exchange times; Main maintenance status; Sub maintenance 1 distance when reset; Sub maintenance 2 distance when reset; Sub maintenance 3 distance when reset; Sub maintenance item 3 reset status flag; Sub maintenance 4 distance when reset; Sub maintenance 5 distance when reset; Sub maintenance 6 distance when reset; Sub maintenance 7 distance when reset; ...."}
   ]},
@@ -1018,15 +1018,15 @@
   "signals": [
     {"id": "ACCORD_RAW_60_70A9", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70A9", "description": "Captured to learn this reply's layout. Its listed contents: Item A time when reset; past time; Remaining days readout status; reference timing(day); reference timing(month); reference timing(year); Item 1 exchange times; Item 2 exchange times; Item 3 exchange times; Item 4 exchange times; Item 5 exchange times; Item 6 exchange times; Item 7 exchange times; Item 8 exchange times; Item 9 exchange times."}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70C0"}, "freq": 60, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70C0"}, "freq": 60, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_70C0", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70C0", "description": "Captured to learn this reply's layout. Its listed contents: LIM button; CMBS OFF switch; cancel button; cruise control main button; res/accel button; decel/set button; DISTANCE switch; TPMS Initialization Switch; ECON switch; FCW OFF switch; Front Defroster switch; Auto Idle Stop System OFF Switch; INFORMATION switch; LKAS switch; NEXT switch; NORMAL switch; PREVIOUS switch; Seat Belt Switch; SEL/RESET switch on instrument panel; ...."}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70C1"}, "freq": 60, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70C1"}, "freq": 60, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_70C1", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70C1", "description": "Captured to learn this reply's layout. Its listed contents: ADS  Switch; BRAKE HOLD switch; CTBA OFF Switch; EV Mode switch; FHEV Mode switch; HFL HANG-UP/BACK button; HILL CONTROL switch; IDS Switch Rotation to Left; IDS Switch Rotation to Right; ILLUMI VOL+ switch; ILLUMI VOL- switch; ILLUMI Cancel Switch; LDW OFF switch; Mode DOWN Switch; Mode Switch; Mode UP Switch; Parking Brake switch; HFL PICK-UP button; RTC OFF switch; SNOW Switch; ...."}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70C2"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70C2"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "ACCORD_RAW_60_70C2", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70C2", "description": "Captured to learn this reply's layout. Its listed contents: Steering Commander Application Switch; Left side Audio Remote Switch (VOL. DOWN); Left side Audio Remote Switch Left CH(-); Right side Audio Remote Switch Right CH(+); Left side Audio Remote Switch Right CH(+); Left side Audio Remote Switch (VOL. UP); Steering Commander Mute Switch; Right side Audio Remote Switch (VOL. DOWN); Right side Audio Remote Switch Left CH(-); ...."}
   ]},
