@@ -2,24 +2,9 @@ command_id: DB33.0170
 test_cases:
 - expected_values:
     BP_A: BP_A_OL
-    BP_A_ACT: 100.03125
-    BP_A_ACT_SUP: 1
-    BP_A_CMD: 100.5625
-    BP_A_CMD_SUP: 1
-    BP_A_SUP: 1
-    BP_B_ACT: 0
-    BP_B_ACT_SUP: 0
-    BP_B_CMD: 0
-    BP_B_CMD_SUP: 0
-    BP_B_SUP: 0
-  response: |-
-    18DAF110100C4170070C920C
-    18DAF1102181000000000155
-- expected_values:
-    BP_A: BP_A_OL
     BP_A_ACT: 100.4375
     BP_A_ACT_SUP: 1
-    BP_A_CMD: 100.5625
+    BP_A_CMD: 100.4375
     BP_A_CMD_SUP: 1
     BP_A_SUP: 1
     BP_B_ACT: 0
@@ -28,7 +13,7 @@ test_cases:
     BP_B_CMD_SUP: 0
     BP_B_SUP: 0
   response: |-
-    18DAF110100C4170070C920C
+    18DAF110100C4170070C8E0C
     18DAF110218E000000000155
 - expected_values:
     BP_A: BP_A_CL
@@ -91,6 +76,21 @@ test_cases:
     18DAF110100C4170070CA20C
     18DAF11021D0000000000155
 - expected_values:
+    BP_A: BP_A_CL
+    BP_A_ACT: 102.5
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 103.9375
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF110100C4170070CFE0C
+    18DAF11021D0000000000255
+- expected_values:
     BP_A: BP_A_OL
     BP_A_ACT: 101.65625
     BP_A_ACT_SUP: 1
@@ -122,9 +122,9 @@ test_cases:
     18DAF110210A000000000255
 - expected_values:
     BP_A: BP_A_CL
-    BP_A_ACT: 111.09375
+    BP_A_ACT: 109.46875
     BP_A_ACT_SUP: 1
-    BP_A_CMD: 111.8125
+    BP_A_CMD: 110.34375
     BP_A_CMD_SUP: 1
     BP_A_SUP: 1
     BP_B_ACT: 0
@@ -133,13 +133,13 @@ test_cases:
     BP_B_CMD_SUP: 0
     BP_B_SUP: 0
   response: |-
-    18DAF110100C4170070DFA0D
-    18DAF11021E3000000000255
+    18DAF110100C4170070DCB0D
+    18DAF11021AF000000000255
 - expected_values:
     BP_A: BP_A_CL
-    BP_A_ACT: 145.53125
+    BP_A_ACT: 159.875
     BP_A_ACT_SUP: 1
-    BP_A_CMD: 144.96875
+    BP_A_CMD: 160.6875
     BP_A_CMD_SUP: 1
     BP_A_SUP: 1
     BP_B_ACT: 0
@@ -148,5 +148,5 @@ test_cases:
     BP_B_CMD_SUP: 0
     BP_B_SUP: 0
   response: |-
-    18DAF110100C417007121F12
-    18DAF1102131000000000255
+    18DAF110100C417007141613
+    18DAF11021FC000000000255
